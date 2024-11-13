@@ -7,4 +7,5 @@ salesforce.Role Junior2 {
   opportunityAccessLevel = "Edit"
   parentRole = salesforce.Role.instance.CEO
   _alias = "Junior2"
+  description = "Very nice junior!"
 }
