@@ -515,6 +515,12 @@ salesforce.SearchSettings {
         name = salesforce.WorkOrderLineItem
         resultsPerPageCount = 25
       },
+      {
+        enhancedLookupEnabled = false
+        lookupAutoCompleteEnabled = false
+        name = salesforce.deploy21_11__c
+        resultsPerPageCount = 0
+      },
     ]
   }
   sidebarAutoCompleteEnabled = true

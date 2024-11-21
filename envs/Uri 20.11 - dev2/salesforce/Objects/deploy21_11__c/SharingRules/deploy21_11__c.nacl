@@ -1,0 +1,7 @@
+salesforce.SharingRules deploy21_11__c {
+  fullName = "deploy21_11__c"
+  _parent = [
+    salesforce.deploy21_11__c,
+  ]
+  _alias = "deploy21_11__c"
+}
