@@ -1,4 +1,10 @@
 envs {
   envs = [
+    {
+      name = "Uri 20.11 - dev2"
+      accountToServiceName = {
+        salesforce = "salesforce"
+      }
+    },
   ]
 }
