@@ -58,6 +58,7 @@ type salesforce.Lead {
   apiName = "Lead"
   metadataType = "CustomObject"
   label = "Lead"
+  description = ""
   actionOverrides = [
     {
       actionName = "Accept"
@@ -299,11 +300,14 @@ type salesforce.Lead {
     },
     {
       actionName = "View"
-      type = "Default"
+      comment = "Action override created by Lightning App Builder during activation."
+      content = "fourth_custom_leads_page"
+      formFactor = "Large"
+      skipRecordTypeSelect = false
+      type = "Flexipage"
     },
     {
       actionName = "View"
-      formFactor = "Large"
       type = "Default"
     },
     {
@@ -352,4 +356,9 @@ type salesforce.Lead {
     OwnerId = salesforce.Lead.field.OwnerId
     Status = salesforce.Lead.field.Status
   }
+  _generated_dependencies = [
+    {
+      reference = salesforce.LightningPage.instance.fourth_custom_leads_page
+    },
+  ]
 }

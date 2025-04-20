@@ -1,0 +1,41 @@
+salesforce.LightningPage fourth_custom_leads_page {
+  flexiPageRegions = [
+    {
+      itemInstances = [
+        {
+          componentInstance = {
+            componentInstanceProperties = [
+              {
+                name = "decorate"
+                value = "true"
+              },
+              {
+                name = "richTextValue"
+                value = "<p>Custom lead page should cause action override</p>"
+              },
+            ]
+            componentName = "flexipage:richText"
+            identifier = "flexipage_richText"
+          }
+        },
+      ]
+      name = "main"
+      type = "Region"
+    },
+  ]
+  masterLabel = "fourth_custom_leads_page"
+  sobjectType = "Lead"
+  template = {
+    name = "flexipage:recordHomeSingleColNoHeaderTemplateDesktop"
+    properties = {
+      name = "enablePageActionConfig"
+      value = "false"
+    }
+  }
+  type = "RecordPage"
+  fullName = "fourth_custom_leads_page"
+  _parent = [
+    salesforce.Lead,
+  ]
+  _alias = "fourth_custom_leads_page"
+}

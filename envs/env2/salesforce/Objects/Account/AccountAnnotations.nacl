@@ -58,6 +58,7 @@ type salesforce.Account {
   apiName = "Account"
   metadataType = "CustomObject"
   label = "Account"
+  description = ""
   actionOverrides = [
     {
       actionName = "CallHighlightAction"
@@ -322,4 +323,9 @@ type salesforce.Account {
     Name = salesforce.Account.field.Name
     OwnerId = salesforce.Account.field.OwnerId
   }
+  _generated_dependencies = [
+    {
+      reference = salesforce.LightningPage.instance.seventh_custom_account_page
+    },
+  ]
 }

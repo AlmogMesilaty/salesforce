@@ -1,5 +1,5 @@
 salesforce.TrailheadSettings {
   fullName = "Trailhead"
-  enableConfettiEffect = "true"
+  enableConfettiEffect = true
   _alias = "Trailhead"
 }

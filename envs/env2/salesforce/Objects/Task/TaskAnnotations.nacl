@@ -58,6 +58,7 @@ type salesforce.Task {
   apiName = "Task"
   metadataType = "CustomObject"
   label = "Task"
+  description = ""
   actionOverrides = [
     {
       actionName = "CancelEdit"
@@ -210,4 +211,9 @@ type salesforce.Task {
   }
   historyTrackedFields = {
   }
+  _generated_dependencies = [
+    {
+      reference = salesforce.LightningPage.instance.fifth_custom_task_page
+    },
+  ]
 }

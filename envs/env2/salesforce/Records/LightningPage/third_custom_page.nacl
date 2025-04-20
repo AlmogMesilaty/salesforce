@@ -1,0 +1,51 @@
+salesforce.LightningPage third_custom_page {
+  flexiPageRegions = [
+    {
+      itemInstances = [
+        {
+          componentInstance = {
+            componentInstanceProperties = [
+              {
+                name = "decorate"
+                value = "true"
+              },
+              {
+                name = "richTextValue"
+                value = "<p>Third custom page</p>"
+              },
+            ]
+            componentName = "flexipage:richText"
+            identifier = "flexipage_richText"
+          }
+        },
+      ]
+      name = "column1"
+      type = "Region"
+    },
+    {
+      itemInstances = [
+        {
+          componentInstance = {
+            componentInstanceProperties = [
+              {
+                name = "decorate"
+                value = "true"
+              },
+            ]
+            componentName = "flexipage:richText"
+            identifier = "flexipage_richText2"
+          }
+        },
+      ]
+      name = "column2"
+      type = "Region"
+    },
+  ]
+  masterLabel = "third_custom_page"
+  template = {
+    name = "flexipage:appHomeTemplateTwoColumns"
+  }
+  type = "AppPage"
+  fullName = "third_custom_page"
+  _alias = "third_custom_page"
+}

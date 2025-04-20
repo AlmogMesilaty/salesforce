@@ -58,6 +58,7 @@ type salesforce.ChangeRequest {
   apiName = "ChangeRequest"
   metadataType = "CustomObject"
   label = "Change Request"
+  description = ""
   actionOverrides = [
     {
       actionName = "CancelEdit"
@@ -194,11 +195,17 @@ type salesforce.ChangeRequest {
       "Subject",
       "Status",
       "Priority",
+      "ChangeType",
+      "RiskLevel",
+      "Impact",
     ]
     searchResultsAdditionalFields = [
       "Subject",
       "Status",
       "Priority",
+      "ChangeType",
+      "RiskLevel",
+      "Impact",
     ]
   }
   _alias = "Change Request"

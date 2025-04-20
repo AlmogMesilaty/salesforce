@@ -1,0 +1,25 @@
+type salesforce.MessagingAutoResponse {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  string response {
+  }
+  string language {
+  }
+  string messageDefinitionName {
+  }
+  number responseTimeoutInMins {
+  }
+  metadataType = "MessagingAutoResponse"
+}

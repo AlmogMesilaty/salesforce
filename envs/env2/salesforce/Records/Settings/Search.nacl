@@ -2,14 +2,14 @@ salesforce.SearchSettings {
   fullName = "Search"
   documentContentSearchEnabled = true
   enableAdvancedSearchInAlohaSidebar = false
-  enableEinsteinSearchAssistantDialog = "true"
-  enableEinsteinSearchEs4kPilot = "false"
-  enableEinsteinSearchNLSFilters = "false"
-  enableEinsteinSearchNaturalLanguage = "true"
+  enableEinsteinSearchAssistantDialog = true
+  enableEinsteinSearchEs4kPilot = false
+  enableEinsteinSearchNLSFilters = false
+  enableEinsteinSearchNaturalLanguage = true
   enableEinsteinSearchPersonalization = true
   enablePersonalTagging = false
   enablePublicTagging = false
-  enableQuerySuggestionPigOn = "false"
+  enableQuerySuggestionPigOn = false
   enableSalesforceGeneratedSynonyms = true
   enableSetupSearch = true
   enableSuggestArticlesLinksOnly = false
@@ -93,60 +93,6 @@ salesforce.SearchSettings {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
         name = salesforce.AuthorizationFormText
-        resultsPerPageCount = 25
-      },
-      {
-        enhancedLookupEnabled = false
-        lookupAutoCompleteEnabled = false
-        name = salesforce.CalcMatrixColumnRange
-        resultsPerPageCount = 25
-      },
-      {
-        enhancedLookupEnabled = false
-        lookupAutoCompleteEnabled = false
-        name = salesforce.CalculationMatrix
-        resultsPerPageCount = 25
-      },
-      {
-        enhancedLookupEnabled = false
-        lookupAutoCompleteEnabled = false
-        name = salesforce.CalculationMatrixColumn
-        resultsPerPageCount = 25
-      },
-      {
-        enhancedLookupEnabled = false
-        lookupAutoCompleteEnabled = false
-        name = salesforce.CalculationMatrixRow
-        resultsPerPageCount = 25
-      },
-      {
-        enhancedLookupEnabled = false
-        lookupAutoCompleteEnabled = false
-        name = salesforce.CalculationMatrixVersion
-        resultsPerPageCount = 25
-      },
-      {
-        enhancedLookupEnabled = false
-        lookupAutoCompleteEnabled = false
-        name = salesforce.CalculationProcedure
-        resultsPerPageCount = 25
-      },
-      {
-        enhancedLookupEnabled = false
-        lookupAutoCompleteEnabled = false
-        name = salesforce.CalculationProcedureStep
-        resultsPerPageCount = 25
-      },
-      {
-        enhancedLookupEnabled = false
-        lookupAutoCompleteEnabled = false
-        name = salesforce.CalculationProcedureVariable
-        resultsPerPageCount = 25
-      },
-      {
-        enhancedLookupEnabled = false
-        lookupAutoCompleteEnabled = false
-        name = salesforce.CalculationProcedureVersion
         resultsPerPageCount = 25
       },
       {
@@ -321,18 +267,6 @@ salesforce.SearchSettings {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
         name = salesforce.Entitlement
-        resultsPerPageCount = 25
-      },
-      {
-        enhancedLookupEnabled = false
-        lookupAutoCompleteEnabled = false
-        name = salesforce.ExpressionSet
-        resultsPerPageCount = 25
-      },
-      {
-        enhancedLookupEnabled = false
-        lookupAutoCompleteEnabled = false
-        name = salesforce.ExpressionSetVersion
         resultsPerPageCount = 25
       },
       {
@@ -514,6 +448,12 @@ salesforce.SearchSettings {
         lookupAutoCompleteEnabled = false
         name = salesforce.WorkOrderLineItem
         resultsPerPageCount = 25
+      },
+      {
+        enhancedLookupEnabled = false
+        lookupAutoCompleteEnabled = false
+        name = salesforce.deploy21_11__c
+        resultsPerPageCount = 0
       },
     ]
   }

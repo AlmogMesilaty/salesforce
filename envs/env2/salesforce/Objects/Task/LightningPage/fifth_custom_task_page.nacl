@@ -1,0 +1,41 @@
+salesforce.LightningPage fifth_custom_task_page {
+  flexiPageRegions = [
+    {
+      itemInstances = [
+        {
+          componentInstance = {
+            componentInstanceProperties = [
+              {
+                name = "decorate"
+                value = "true"
+              },
+              {
+                name = "richTextValue"
+                value = "<p>This is custom task page should create action override</p>"
+              },
+            ]
+            componentName = "flexipage:richText"
+            identifier = "flexipage_richText"
+          }
+        },
+      ]
+      name = "main"
+      type = "Region"
+    },
+  ]
+  masterLabel = "fifth_custom_task_page"
+  sobjectType = "Task"
+  template = {
+    name = "flexipage:recordHomeSingleColNoHeaderTemplateDesktop"
+    properties = {
+      name = "enablePageActionConfig"
+      value = "false"
+    }
+  }
+  type = "RecordPage"
+  fullName = "fifth_custom_task_page"
+  _parent = [
+    salesforce.Task,
+  ]
+  _alias = "fifth_custom_task_page"
+}

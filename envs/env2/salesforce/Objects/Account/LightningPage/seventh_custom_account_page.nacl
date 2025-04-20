@@ -1,0 +1,57 @@
+salesforce.LightningPage seventh_custom_account_page {
+  flexiPageRegions = [
+    {
+      itemInstances = [
+        {
+          componentInstance = {
+            componentInstanceProperties = [
+              {
+                name = "cacheAge"
+                value = "1440"
+              },
+              {
+                name = "label"
+              },
+              {
+                name = "reportName"
+                value = "flow_screen_prebuilt_report"
+              },
+              {
+                name = "showRefreshButton"
+                value = "true"
+              },
+            ]
+            componentName = "flexipage:reportChart"
+            identifier = "flexipage_reportChart"
+            visibilityRule = {
+              criteria = [
+                {
+                  leftValue = salesforce.Account.field.Name
+                  operator = "CONTAINS"
+                  rightValue = "a"
+                },
+              ]
+            }
+          }
+        },
+      ]
+      name = "main"
+      type = "Region"
+    },
+  ]
+  masterLabel = "seventh_custom_account_page"
+  sobjectType = "Account"
+  template = {
+    name = "flexipage:recordHomeSingleColNoHeaderTemplateDesktop"
+    properties = {
+      name = "enablePageActionConfig"
+      value = "false"
+    }
+  }
+  type = "RecordPage"
+  fullName = "seventh_custom_account_page"
+  _parent = [
+    salesforce.Account,
+  ]
+  _alias = "seventh_custom_account_page"
+}

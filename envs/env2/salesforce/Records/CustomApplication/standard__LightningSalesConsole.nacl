@@ -1,4 +1,68 @@
 salesforce.CustomApplication standard__LightningSalesConsole {
+  actionOverrides = [
+    {
+      actionName = "View"
+      comment = "Action override created by Lightning App Builder during activation."
+      content = "seventh_custom_account_page"
+      formFactor = "Large"
+      skipRecordTypeSelect = false
+      type = "Flexipage"
+      pageOrSobjectType = "Account"
+    },
+    {
+      actionName = "View"
+      comment = "Action override created by Lightning App Builder during activation."
+      content = "seventh_custom_account_page"
+      formFactor = "Small"
+      skipRecordTypeSelect = false
+      type = "Flexipage"
+      pageOrSobjectType = "Account"
+    },
+    {
+      actionName = "View"
+      comment = "Action override created by Lightning App Builder during activation."
+      content = "fourth_custom_leads_page"
+      formFactor = "Large"
+      skipRecordTypeSelect = false
+      type = "Flexipage"
+      pageOrSobjectType = "Lead"
+    },
+    {
+      actionName = "View"
+      comment = "Action override created by Lightning App Builder during activation."
+      content = "fourth_custom_leads_page"
+      formFactor = "Small"
+      skipRecordTypeSelect = false
+      type = "Flexipage"
+      pageOrSobjectType = "Lead"
+    },
+    {
+      actionName = "View"
+      comment = "Action override created by Lightning App Builder during activation."
+      content = "fifth_custom_task_page"
+      formFactor = "Large"
+      skipRecordTypeSelect = false
+      type = "Flexipage"
+      pageOrSobjectType = "Task"
+    },
+    {
+      actionName = "View"
+      comment = "Action override created by Lightning App Builder during activation."
+      content = "fifth_custom_task_page"
+      formFactor = "Small"
+      skipRecordTypeSelect = false
+      type = "Flexipage"
+      pageOrSobjectType = "Task"
+    },
+    {
+      actionName = "Tab"
+      content = "first_custom_home_page"
+      formFactor = "Large"
+      skipRecordTypeSelect = false
+      type = "Flexipage"
+      pageOrSobjectType = "standard-home"
+    },
+  ]
   formFactors = [
     "Small",
     "Large",
@@ -9,9 +73,29 @@ salesforce.CustomApplication standard__LightningSalesConsole {
   isOmniPinnedViewEnabled = false
   label = "Sales Console"
   navType = "Console"
+  profileActionOverrides = [
+    {
+      actionName = "View"
+      content = "fourth_custom_leads_page"
+      formFactor = "Small"
+      pageOrSobjectType = "Lead"
+      type = "Flexipage"
+      profile = "Admin"
+    },
+    {
+      actionName = "View"
+      content = "fourth_custom_leads_page"
+      formFactor = "Large"
+      pageOrSobjectType = "Lead"
+      type = "Flexipage"
+      profile = "Admin"
+    },
+  ]
   tabs = [
     "standard-home",
+    salesforce.CustomTab.instance.sixth_custom_app_page,
     "standard-Lead",
+    salesforce.CustomTab.instance.third_custom_page,
     "standard-Account",
     "standard-Contact",
     "standard-Opportunity",
@@ -28,6 +112,9 @@ salesforce.CustomApplication standard__LightningSalesConsole {
   utilityBar = "LightningSalesConsole_UtilityBar"
   workspaceConfig = {
     mappings = [
+      {
+        tab = salesforce.CustomTab.instance.sixth_custom_app_page
+      },
       {
         tab = "standard-Account"
       },
@@ -66,6 +153,9 @@ salesforce.CustomApplication standard__LightningSalesConsole {
       },
       {
         tab = "standard-report"
+      },
+      {
+        tab = salesforce.CustomTab.instance.third_custom_page
       },
     ]
   }

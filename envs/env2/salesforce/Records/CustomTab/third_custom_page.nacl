@@ -1,0 +1,13 @@
+salesforce.CustomTab third_custom_page {
+  fullName = "third_custom_page"
+  description = "Created by Lightning App Builder"
+  flexiPage = "third_custom_page"
+  label = "third_custom_page"
+  motif = "Custom78: Map"
+  _generated_dependencies = [
+    {
+      reference = salesforce.LightningPage.instance.third_custom_page
+    },
+  ]
+  _alias = "third_custom_page"
+}
