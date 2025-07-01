@@ -25,6 +25,7 @@ type salesforce.ConversationMessageLayout {
         "Carousel",
         "EncryptedOAuthToken",
         "ExternalTemplate",
+        "Flow",
         "Inputs",
         "ListPicker",
         "Media",

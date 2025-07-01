@@ -25,6 +25,7 @@ type salesforce.BrandingSet {
     _restriction = {
       enforce_value = false
       values = [
+        "agentforce-template-frame:branding",
         "alumniSelfServicePortal:branding-alumniSelfServicePortal",
         "applicantPortal:branding-applicantPortal",
         "automotive:branding-automotive",
@@ -37,6 +38,7 @@ type salesforce.BrandingSet {
         "b2c-storefront-pay-now:branding",
         "benefitsManagement:branding-benefitsManagement",
         "citizen:branding-citizen",
+        "collection:branding-collection",
         "cpt:branding-cpt",
         "cypress:branding-cypress",
         "digitallending:branding-digitallending",
@@ -52,6 +54,7 @@ type salesforce.BrandingSet {
         "identity:branding-identity",
         "industriesBaseb2b:branding-industriesBaseb2b",
         "insurance:branding-insurance",
+        "itsmPortal:branding-itsmPortal",
         "jepson:branding-jepson",
         "koa:branding-koa",
         "kokua:branding-kokua",
@@ -67,6 +70,7 @@ type salesforce.BrandingSet {
         "napili:branding-napili",
         "napili:branding-napili-merged",
         "prm:branding-prm-merged",
+        "prmEnhanced:branding-prmEnhanced",
         "providerPortal:branding-providerPortal",
         "recruitApplicantPortal:branding-recruitApplicantPortal",
         "recruitEmployeePortal:branding-recruitEmployeePortal",

@@ -21,6 +21,10 @@ type salesforce.FlowWaitEvent {
   }
   string associatedElement {
   }
+  string automationEventName {
+  }
+  string automationEventType {
+  }
   string conditionLogic {
   }
   salesforce.FlowCondition conditions {

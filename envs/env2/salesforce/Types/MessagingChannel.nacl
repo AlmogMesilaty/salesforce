@@ -17,11 +17,21 @@ type salesforce.MessagingChannel {
   }
   salesforce.MessagingAutoResponse automatedResponses {
   }
+  salesforce.MessagingChannelUsage channelUsages {
+  }
+  string countryCode {
+  }
   salesforce.MessagingChannelCustomParameter customParameters {
   }
   string description {
   }
+  string externalAccountId {
+  }
   string masterLabel {
+  }
+  string platformKey {
+  }
+  string queueRoutingConfig {
   }
   string sessionHandlerFlow {
   }

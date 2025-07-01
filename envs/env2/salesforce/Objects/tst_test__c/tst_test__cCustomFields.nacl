@@ -1,0 +1,27 @@
+type salesforce.tst_test__c {
+  salesforce.Picklist pick_field__c {
+    apiName = "tst_test__c.pick_field__c"
+    label = "pick field"
+    trackTrending = false
+    valueSet = {
+      values = {
+        ehad = {
+          fullName = "ehad"
+          default = false
+          label = "ehad"
+        }
+        shtaim = {
+          fullName = "shtaim"
+          default = false
+          label = "shtaim"
+        }
+      }
+      order = [
+        salesforce.tst_test__c.field.pick_field__c.valueSet.values.ehad,
+        salesforce.tst_test__c.field.pick_field__c.valueSet.values.shtaim,
+      ]
+    }
+    sorted = false
+    restricted = true
+  }
+}

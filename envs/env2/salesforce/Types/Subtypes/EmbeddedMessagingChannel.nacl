@@ -24,9 +24,13 @@ type salesforce.EmbeddedMessagingChannel {
       ]
     }
   }
+  string connectedApp {
+  }
   boolean isAttachmentUploadEnabled {
   }
   boolean isEstimatedWaitTimeEnabled {
+  }
+  boolean isFallbackMessageEnabled {
   }
   boolean isSaveTranscriptEnabled {
   }

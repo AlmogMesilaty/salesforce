@@ -38,7 +38,7 @@ salesforce.AnalyticsSettings {
   enableQueryLiveConnectors = true
   enableRemoveFooterForRepDisplay = false
   enableRemoveFooterFromRepExp = false
-  enableReportCdnPref = false
+  enableReportCdnPref = true
   enableReportHideXlsExportPref = false
   enableReportInlineEditPref = true
   enableReportNotificationsEnable = true
@@ -50,6 +50,7 @@ salesforce.AnalyticsSettings {
   enableSFXJoinedReportsEnable = false
   enableSalesforceOutputConnector = false
   enableSecureImageSharing = false
+  enableShowHighContrastChart = false
   enableSnowflakeOutputConnector = false
   enableSummaryFilterOrgPref = false
   enableTableauHyperOutputConnector = false

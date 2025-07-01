@@ -1,0 +1,36 @@
+salesforce.GlobalValueSet bick_list {
+  customValue = {
+    values = {
+      aa = {
+        fullName = "aa"
+        default = false
+        label = "aa"
+      }
+      bb = {
+        fullName = "bb"
+        default = false
+        label = "bb"
+      }
+      cc = {
+        fullName = "cc"
+        default = false
+        label = "cc"
+      }
+      dd = {
+        fullName = "dd"
+        default = false
+        label = "dd"
+      }
+    }
+    order = [
+      salesforce.GlobalValueSet.instance.bick_list.customValue.values.aa,
+      salesforce.GlobalValueSet.instance.bick_list.customValue.values.bb,
+      salesforce.GlobalValueSet.instance.bick_list.customValue.values.cc,
+      salesforce.GlobalValueSet.instance.bick_list.customValue.values.dd,
+    ]
+  }
+  masterLabel = "bick list"
+  sorted = false
+  fullName = "bick_list"
+  _alias = "bick_list"
+}

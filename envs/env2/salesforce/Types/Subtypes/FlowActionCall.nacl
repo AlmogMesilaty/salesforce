@@ -52,6 +52,8 @@ type salesforce.FlowActionCall {
   }
   number locationY {
   }
+  salesforce.FlowActionCallPath actionCallPaths {
+  }
   string actionName {
   }
   string actionType {

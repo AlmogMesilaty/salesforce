@@ -1,0 +1,90 @@
+salesforce.Layout tst_obj__c_tst_obj_Layout@uuubus {
+  layoutSections = [
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Required"
+              field = salesforce.tst_obj__c.field.Name
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.tst_obj__c.field.my_first_field__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.tst_obj__c.field.picklist_field1__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.tst_obj__c.field.picklist_field2__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.tst_obj__c.field.another_picklist_field__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.tst_obj__c.field.odd_picklist__c
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.tst_obj__c.field.OwnerId
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "System Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.tst_obj__c.field.CreatedById
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.tst_obj__c.field.LastModifiedById
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      style = "CustomLinks"
+    },
+  ]
+  showEmailCheckbox = false
+  showHighlightsPanel = false
+  showInteractionLogPanel = false
+  showRunAssignmentRulesCheckbox = false
+  showSubmitAndAttachButton = false
+  fullName = "tst_obj__c-tst_obj Layout"
+  _parent = [
+    salesforce.tst_obj__c,
+  ]
+  _alias = "tst_obj__c-tst_obj Layout"
+}

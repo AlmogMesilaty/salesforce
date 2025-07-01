@@ -61,7 +61,7 @@ salesforce.Layout ReportAnomalyEventStore_Report_Anomaly_Event_Store_Layout@bsss
       style = "TwoColumnsLeftToRight"
     },
     {
-      customLabel = false
+      customLabel = true
       detailHeading = true
       editHeading = false
       label = "System Information"

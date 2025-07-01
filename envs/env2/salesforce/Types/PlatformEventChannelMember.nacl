@@ -45,6 +45,7 @@ type salesforce.PlatformEventChannelMember {
         "FtestStandardMonitoringChannel",
         "GlobalIdentityStandard",
         "HighVolumePriming",
+        "HsoChangeEvents",
         "IsotopeStandardChangeEvents",
         "LearningItemProgress",
         "LifeCycleEntitiesChannel",
@@ -54,6 +55,7 @@ type salesforce.PlatformEventChannelMember {
         "PardotSyncStdChannel",
         "SchedulingEntitiesModifiedAttributesChannel",
         "SlackAlertsEventChannel",
+        "TMFEventSubscriberChannel",
         "VideoCall",
         "WorkPlansCDCEventChannel",
       ]

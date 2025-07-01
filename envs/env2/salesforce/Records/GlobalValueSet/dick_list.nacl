@@ -1,0 +1,30 @@
+salesforce.GlobalValueSet dick_list {
+  customValue = {
+    values = {
+      ee = {
+        fullName = "ee"
+        default = false
+        label = "ee"
+      }
+      ff = {
+        fullName = "ff"
+        default = false
+        label = "ff"
+      }
+      gg = {
+        fullName = "gg"
+        default = false
+        label = "gg"
+      }
+    }
+    order = [
+      salesforce.GlobalValueSet.instance.dick_list.customValue.values.ee,
+      salesforce.GlobalValueSet.instance.dick_list.customValue.values.ff,
+      salesforce.GlobalValueSet.instance.dick_list.customValue.values.gg,
+    ]
+  }
+  masterLabel = "dick list"
+  sorted = false
+  fullName = "dick_list"
+  _alias = "dick_list"
+}

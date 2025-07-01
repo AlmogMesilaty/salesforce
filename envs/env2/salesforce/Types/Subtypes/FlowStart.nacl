@@ -53,6 +53,8 @@ type salesforce.FlowStart {
   }
   salesforce.FlowConnector connector {
   }
+  salesforce.FlowDataTypeMapping dataTypeMappings {
+  }
   boolean doesRequireRecordChangedToMeetCriteria {
   }
   string entryType {
@@ -61,6 +63,7 @@ type salesforce.FlowStart {
       values = [
         "AfterCompletion",
         "Always",
+        "Never",
       ]
     }
   }
@@ -109,6 +112,8 @@ type salesforce.FlowStart {
     _restriction = {
       enforce_value = false
       values = [
+        "Activation",
+        "AdminAutomationEvent",
         "AutomationEvent",
         "Capability",
         "DataCloudDataChange",
@@ -152,4 +157,8 @@ type salesforce.FlowStart {
       indexed = false
     },
   ]
+  string triggeringDataGraph {
+  }
+  string triggeringDataModelObjectPath {
+  }
 }

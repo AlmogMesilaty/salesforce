@@ -19,8 +19,6 @@ type salesforce.StandardValueSet {
   }
   boolean sorted {
   }
-  "List<salesforce.StandardValue>" standardValue {
-  }
   string internalId {
     _hidden_value = true
     localOnly = true
@@ -35,4 +33,6 @@ type salesforce.StandardValueSet {
       indexed = false
     },
   ]
+  salesforce.OrderedMapOfStandardValue standardValue {
+  }
 }

@@ -300,14 +300,11 @@ type salesforce.Lead {
     },
     {
       actionName = "View"
-      comment = "Action override created by Lightning App Builder during activation."
-      content = "fourth_custom_leads_page"
-      formFactor = "Large"
-      skipRecordTypeSelect = false
-      type = "Flexipage"
+      type = "Default"
     },
     {
       actionName = "View"
+      formFactor = "Large"
       type = "Default"
     },
     {
@@ -335,6 +332,7 @@ type salesforce.Lead {
       "LEAD.COMPANY",
       "LEAD.PHONE",
       "LEAD.MOBILE_PHONE",
+      "LEAD.FAX",
     ]
     searchResultsAdditionalFields = [
       "FULL_NAME",
@@ -356,9 +354,4 @@ type salesforce.Lead {
     OwnerId = salesforce.Lead.field.OwnerId
     Status = salesforce.Lead.field.Status
   }
-  _generated_dependencies = [
-    {
-      reference = salesforce.LightningPage.instance.fourth_custom_leads_page
-    },
-  ]
 }

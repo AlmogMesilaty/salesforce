@@ -1,0 +1,7 @@
+salesforce.SharingRules tst_obj__c {
+  fullName = "tst_obj__c"
+  _parent = [
+    salesforce.tst_obj__c,
+  ]
+  _alias = "tst_obj__c"
+}

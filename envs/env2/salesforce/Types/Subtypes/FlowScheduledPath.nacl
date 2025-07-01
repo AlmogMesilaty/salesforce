@@ -43,6 +43,7 @@ type salesforce.FlowScheduledPath {
     _restriction = {
       enforce_value = false
       values = [
+        "ApprovalRecall",
         "AsyncAfterCommit",
       ]
     }

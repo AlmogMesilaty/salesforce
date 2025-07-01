@@ -1,5 +1,6 @@
 salesforce.MyDomainSettings {
   fullName = "MyDomain"
+  areLegacyRedirectsMaintained = false
   canOnlyLoginWithMyDomainUrl = false
   doesApiLoginRequireOrgDomain = false
   doesWarnOnForceComRedirect = false
@@ -16,7 +17,7 @@ salesforce.MyDomainSettings {
   instancedUrlRedirectHandling = "NoRedirect"
   isFirstPartyCookieUseRequired = false
   logRedirections = false
-  myDomainName = "salto-a1-dev-ed"
+  myDomainName = "saltolabs-b-dev-ed"
   myDomainSuffix = "MySalesforce"
   onboardCustomerSpecificSuffix = false
   redirectForceComSiteUrls = true

@@ -19,6 +19,8 @@ type salesforce.ManagedContentType {
   }
   string developerName {
   }
+  boolean isMetadataContent {
+  }
   "List<salesforce.ManagedContentNodeType>" managedContentNodeTypes {
   }
   string masterLabel {

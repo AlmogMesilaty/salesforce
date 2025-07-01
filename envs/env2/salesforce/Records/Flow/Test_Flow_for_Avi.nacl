@@ -1,0 +1,47 @@
+salesforce.Flow Test_Flow_for_Avi {
+  fullName = "Test_Flow_for_Avi"
+  apiVersion = 64
+  areMetricsLoggedToDataCloud = false
+  environments = "Default"
+  interviewLabel = "Test Flow for Avi {!$Flow.CurrentDateTime}"
+  label = "Test Flow for Avi"
+  processMetadataValues = [
+    {
+      name = "BuilderType"
+      value = {
+        stringValue = "LightningFlowBuilder"
+      }
+    },
+    {
+      name = "CanvasMode"
+      value = {
+        stringValue = "AUTO_LAYOUT_CANVAS"
+      }
+    },
+    {
+      name = "OriginBuilderType"
+      value = {
+        stringValue = "LightningFlowBuilder"
+      }
+    },
+  ]
+  processType = "AutoLaunchedFlow"
+  start = {
+    filterLogic = "and"
+    filters = {
+      field = salesforce.Lead.field.IsUnreadByOwner
+      operator = "EqualTo"
+      value = {
+        booleanValue = true
+      }
+    }
+    object = salesforce.Lead
+    recordTriggerType = "Create"
+    triggerType = "RecordAfterSave"
+  }
+  status = "InvalidDraft"
+  _parent = [
+    salesforce.Lead,
+  ]
+  _alias = "Test Flow for Avi"
+}

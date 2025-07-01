@@ -80,6 +80,8 @@ type salesforce.FlowScreen {
   }
   boolean showHeader {
   }
+  salesforce.FlowElementReferenceOrValue stageReference {
+  }
   salesforce.FlowScreenTrigger triggers {
   }
   metadataType = "FlowScreen"

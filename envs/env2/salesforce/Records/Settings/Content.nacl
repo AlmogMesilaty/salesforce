@@ -11,7 +11,7 @@ salesforce.ContentSettings {
   enableContentSupportMultiLanguage = false
   enableContentWorkspaceAccess = true
   enableDeleteFileInContentPacks = false
-  enableFileIngestToDataCloud = false
+  enableFileIngestToDataCloud = true
   enableFileShareSetByRecord = false
   enableFilesUsrShareNetRestricted = false
   enableJPGPreviews = false

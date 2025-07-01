@@ -75,7 +75,7 @@ salesforce.Layout GuestUserAnomalyEventStore_Guest_User_Anomaly_Event_Store_Layo
       style = "TwoColumnsLeftToRight"
     },
     {
-      customLabel = false
+      customLabel = true
       detailHeading = true
       editHeading = false
       label = "System Information"

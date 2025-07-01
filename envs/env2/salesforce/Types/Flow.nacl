@@ -21,6 +21,8 @@ type salesforce.Flow {
   }
   number apiVersion {
   }
+  boolean areMetricsLoggedToDataCloud {
+  }
   "List<salesforce.FlowAssignment>" assignments {
   }
   salesforce.FlowChoice choices {
@@ -30,6 +32,8 @@ type salesforce.Flow {
   "List<salesforce.FlowConstant>" constants {
   }
   salesforce.FlowCustomError customErrors {
+  }
+  salesforce.FlowCustomProperty customProperties {
   }
   "List<salesforce.FlowDecision>" decisions {
   }
@@ -79,14 +83,15 @@ type salesforce.Flow {
         "cms_orch__CMS_ReviewContent",
         "cms_orch__CMS_ReviseContent",
         "cms_orch__CMS_WithdrawReviewRequest",
+        "contenthub_upld_flows__GetUploadCnfg",
         "enablement_coaching__SendFdbkRdyNtfcn",
+        "identity_flows__AuthProviderUserRgstr",
         "omnichannel_chat__QueuesChat",
         "omnichannel_chat__SkillsChat",
         "omnichannel_messaging__MsgRouting",
         "omnichannel_voice__VoiceRouting",
         "opencti__SCV_Basic_Routing_Flow",
         "runtime_appointmentbooking__AddAttnd",
-        "runtime_appointmentbooking__AgentCtx",
         "runtime_appointmentbooking__ConfigPymt",
         "runtime_appointmentbooking__Create_WL",
         "runtime_appointmentbooking__EnrlAttnd",
@@ -101,37 +106,19 @@ type salesforce.Flow {
         "runtime_appointmentbooking__Out_Modify",
         "runtime_appointmentbooking__PymtLnk",
         "runtime_appointmentbooking__Rasgn_Appt",
-        "runtime_appointmentbooking__agentAppt",
-        "runtime_appointmentbooking__agntCancel",
-        "runtime_appointmentbooking__collAppt",
-        "runtime_appointmentbooking__getExAppt",
-        "runtime_appointmentbooking__getSlot",
-        "runtime_appointmentbooking__lstAppts",
         "runtime_appointmentbooking__send_Invt",
         "runtime_commerce_adj__Discount_Item",
         "runtime_commerce_exc__Exchange_Flow",
-        "runtime_commerce_oe__Order_Entry",
         "runtime_commerce_oms__Cancel_Item",
         "runtime_commerce_oms__Create_OS",
         "runtime_commerce_oms__Create_PE",
         "runtime_commerce_oms__Return_Item",
-        "runtime_commerce_rex__Exchange_RMA",
         "runtime_commerce_rma__Create_CO",
         "runtime_commerce_rma__Return_Item_RMA",
         "runtime_commerce_rs__Reship_FO",
         "runtime_industries_recurrence__Orch",
         "runtime_industries_recurrence__Schdlr",
         "runtime_payments__GeneratePaymentLink",
-        "runtime_service_fieldservice__ArrWin",
-        "runtime_service_fieldservice__CnclAppt",
-        "runtime_service_fieldservice__GtVrfCnt",
-        "runtime_service_fieldservice__Info",
-        "runtime_service_fieldservice__IsExAg",
-        "runtime_service_fieldservice__NewAppt",
-        "runtime_service_fieldservice__Sched",
-        "runtime_service_fieldservice__TmSlots",
-        "runtime_service_fieldservice__TmZn",
-        "runtime_service_fieldservice__WkTyp",
         "runtime_service_incident_mgmt__CCOIO",
         "runtime_service_incident_mgmt__CRRI",
         "setup_service_experience__Create_Case",
@@ -141,10 +128,15 @@ type salesforce.Flow {
         "setup_service_plan__CheckEligibility",
         "sfdatakit__DeployDataKitComponents",
         "sfdc_fieldservice__CreateLeadAndOpp",
+        "sfdc_fieldservice__Create_Work_Order",
         "sfdc_fieldservice__GenPreWorkBrief",
+        "sfdc_fieldservice__MineUtterances",
+        "standard_approvals__ChkFlowApiName",
+        "standard_approvals__CreaDrftAppvl",
         "standard_approvals__EvaluateApproval",
+        "standard_approvals__ProcSimpleAppvl",
         "standard_approvals__ProcessAppvlSbms",
-        "svc_itsm__Incident_Creation",
+        "standard_approvals__ReviewAppvlRqst",
       ]
     }
     foreignKeyDomain = [
@@ -158,7 +150,6 @@ type salesforce.Flow {
       enforce_value = false
       values = [
         "ActionCadenceAutolaunchedFlow",
-        "ActionCadenceFlow",
         "ActionCadenceStepFlow",
         "ActionPlan",
         "ActionableEventManagementFlow",
@@ -179,6 +170,7 @@ type salesforce.Flow {
         "FieldServiceMobile",
         "FieldServiceWeb",
         "Flow",
+        "IdentityUserRegistrationFlow",
         "IndicatorResultFlow",
         "IndividualObjectLinkingFlow",
         "InvocableProcess",
@@ -193,7 +185,6 @@ type salesforce.Flow {
         "PromptFlow",
         "RecommendationStrategy",
         "RoutingFlow",
-        "RpaFlow",
         "ServiceCatalogItemFlow",
         "StageManagementEvaluationFlow",
         "Survey",
@@ -236,14 +227,15 @@ type salesforce.Flow {
         "cms_orch__CMS_ReviewContent",
         "cms_orch__CMS_ReviseContent",
         "cms_orch__CMS_WithdrawReviewRequest",
+        "contenthub_upld_flows__GetUploadCnfg",
         "enablement_coaching__SendFdbkRdyNtfcn",
+        "identity_flows__AuthProviderUserRgstr",
         "omnichannel_chat__QueuesChat",
         "omnichannel_chat__SkillsChat",
         "omnichannel_messaging__MsgRouting",
         "omnichannel_voice__VoiceRouting",
         "opencti__SCV_Basic_Routing_Flow",
         "runtime_appointmentbooking__AddAttnd",
-        "runtime_appointmentbooking__AgentCtx",
         "runtime_appointmentbooking__ConfigPymt",
         "runtime_appointmentbooking__Create_WL",
         "runtime_appointmentbooking__EnrlAttnd",
@@ -258,37 +250,19 @@ type salesforce.Flow {
         "runtime_appointmentbooking__Out_Modify",
         "runtime_appointmentbooking__PymtLnk",
         "runtime_appointmentbooking__Rasgn_Appt",
-        "runtime_appointmentbooking__agentAppt",
-        "runtime_appointmentbooking__agntCancel",
-        "runtime_appointmentbooking__collAppt",
-        "runtime_appointmentbooking__getExAppt",
-        "runtime_appointmentbooking__getSlot",
-        "runtime_appointmentbooking__lstAppts",
         "runtime_appointmentbooking__send_Invt",
         "runtime_commerce_adj__Discount_Item",
         "runtime_commerce_exc__Exchange_Flow",
-        "runtime_commerce_oe__Order_Entry",
         "runtime_commerce_oms__Cancel_Item",
         "runtime_commerce_oms__Create_OS",
         "runtime_commerce_oms__Create_PE",
         "runtime_commerce_oms__Return_Item",
-        "runtime_commerce_rex__Exchange_RMA",
         "runtime_commerce_rma__Create_CO",
         "runtime_commerce_rma__Return_Item_RMA",
         "runtime_commerce_rs__Reship_FO",
         "runtime_industries_recurrence__Orch",
         "runtime_industries_recurrence__Schdlr",
         "runtime_payments__GeneratePaymentLink",
-        "runtime_service_fieldservice__ArrWin",
-        "runtime_service_fieldservice__CnclAppt",
-        "runtime_service_fieldservice__GtVrfCnt",
-        "runtime_service_fieldservice__Info",
-        "runtime_service_fieldservice__IsExAg",
-        "runtime_service_fieldservice__NewAppt",
-        "runtime_service_fieldservice__Sched",
-        "runtime_service_fieldservice__TmSlots",
-        "runtime_service_fieldservice__TmZn",
-        "runtime_service_fieldservice__WkTyp",
         "runtime_service_incident_mgmt__CCOIO",
         "runtime_service_incident_mgmt__CRRI",
         "setup_service_experience__Create_Case",
@@ -298,10 +272,15 @@ type salesforce.Flow {
         "setup_service_plan__CheckEligibility",
         "sfdatakit__DeployDataKitComponents",
         "sfdc_fieldservice__CreateLeadAndOpp",
+        "sfdc_fieldservice__Create_Work_Order",
         "sfdc_fieldservice__GenPreWorkBrief",
+        "sfdc_fieldservice__MineUtterances",
+        "standard_approvals__ChkFlowApiName",
+        "standard_approvals__CreaDrftAppvl",
         "standard_approvals__EvaluateApproval",
+        "standard_approvals__ProcSimpleAppvl",
         "standard_approvals__ProcessAppvlSbms",
-        "svc_itsm__Incident_Creation",
+        "standard_approvals__ReviewAppvlRqst",
       ]
     }
     foreignKeyDomain = [
@@ -322,6 +301,7 @@ type salesforce.Flow {
         "Draft",
         "InvalidDraft",
         "Obsolete",
+        "UnderReview",
       ]
     }
   }

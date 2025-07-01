@@ -15,6 +15,10 @@ type salesforce.FlowScreenTriggerHandler {
   }
   salesforce.FlowMetadataValue processMetadataValues {
   }
+  string conditionLogic {
+  }
+  salesforce.FlowCondition conditions {
+  }
   string screenActionName {
   }
   metadataType = "FlowScreenTriggerHandler"

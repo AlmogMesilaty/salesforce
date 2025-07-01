@@ -99,7 +99,7 @@ salesforce.Layout SessionHijackingEventStore_Session_Hijacking_Event_Store_Layou
       style = "TwoColumnsLeftToRight"
     },
     {
-      customLabel = false
+      customLabel = true
       detailHeading = true
       editHeading = false
       label = "System Information"

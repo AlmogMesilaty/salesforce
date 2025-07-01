@@ -13,8 +13,6 @@ type salesforce.GlobalValueSet {
     string dirName {
     }
   }
-  "List<salesforce.CustomValue>" customValue {
-  }
   string description {
   }
   serviceid fullName {
@@ -47,4 +45,6 @@ type salesforce.GlobalValueSet {
       indexed = false
     },
   ]
+  salesforce.OrderedMapOfCustomValue customValue {
+  }
 }

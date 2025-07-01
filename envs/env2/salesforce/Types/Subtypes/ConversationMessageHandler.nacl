@@ -25,6 +25,7 @@ type salesforce.ConversationMessageHandler {
         "AuthProvider",
         "PaymentProvider",
         "QuickAction",
+        "Survey",
       ]
     }
   }

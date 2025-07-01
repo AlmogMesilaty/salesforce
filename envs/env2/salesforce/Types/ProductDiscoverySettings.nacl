@@ -19,6 +19,8 @@ settings salesforce.ProductDiscoverySettings {
   }
   string prodDiscBrowseContextDefOrgValue {
   }
+  string prodDiscDefaultCatalogOrgValue {
+  }
   string prodDiscPricingEnabledOrgValue {
   }
   string prodDiscProcedureOrgValue {

@@ -64,6 +64,8 @@ type salesforce.FlowRecordLookup {
   }
   boolean getFirstRecordOnly {
   }
+  salesforce.FlowElementReferenceOrValue limit {
+  }
   string object {
   }
   "List<salesforce.FlowOutputFieldAssignment>" outputAssignments {

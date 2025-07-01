@@ -30,7 +30,6 @@ type salesforce.OrgMetricScanSummary {
     label = "Org Metric Scan Summary"
     unique = false
     caseSensitive = false
-    _hidden_value = true
   }
   salesforce.DateTime CreatedDate {
     apiName = "OrgMetricScanSummary.CreatedDate"

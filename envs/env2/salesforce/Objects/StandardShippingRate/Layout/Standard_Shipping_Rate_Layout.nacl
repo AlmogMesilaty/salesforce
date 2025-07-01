@@ -48,6 +48,10 @@ salesforce.Layout StandardShippingRate_Standard_Shipping_Rate_Layout@bsss {
               behavior = "Required"
               field = salesforce.StandardShippingRate.field.TransitTimeUnit
             },
+            {
+              behavior = "Required"
+              field = salesforce.StandardShippingRate.field.WeightUnit
+            },
           ]
         },
       ]

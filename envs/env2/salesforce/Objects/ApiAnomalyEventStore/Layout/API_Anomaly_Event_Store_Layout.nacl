@@ -83,7 +83,7 @@ salesforce.Layout ApiAnomalyEventStore_API_Anomaly_Event_Store_Layout@bssss {
       style = "TwoColumnsLeftToRight"
     },
     {
-      customLabel = false
+      customLabel = true
       detailHeading = true
       editHeading = false
       label = "System Information"

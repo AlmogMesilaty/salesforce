@@ -1,0 +1,127 @@
+type salesforce.tst_obj__c {
+  salesforce.Picklist another_picklist_field__c {
+    apiName = "tst_obj__c.another_picklist_field__c"
+    description = "desc toph"
+    label = "another picklist field"
+    trackTrending = false
+    valueSetName = salesforce.GlobalValueSet.instance.bick_list
+    restricted = true
+    fieldDependency = {
+      controllingField = salesforce.tst_obj__c.field.odd_picklist__c
+      valueSettings = [
+        {
+          valueName = salesforce.GlobalValueSet.instance.bick_list.customValue.values.aa.fullName
+          controllingFieldValue = [
+            salesforce.GlobalValueSet.instance.dick_list.customValue.values.ee.fullName,
+          ]
+        },
+        {
+          valueName = salesforce.GlobalValueSet.instance.bick_list.customValue.values.dd.fullName
+          controllingFieldValue = [
+            salesforce.GlobalValueSet.instance.dick_list.customValue.values.ee.fullName,
+            salesforce.GlobalValueSet.instance.dick_list.customValue.values.ff.fullName,
+            salesforce.GlobalValueSet.instance.dick_list.customValue.values.gg.fullName,
+          ]
+        },
+        {
+          valueName = salesforce.GlobalValueSet.instance.bick_list.customValue.values.bb.fullName
+          controllingFieldValue = [
+            salesforce.GlobalValueSet.instance.dick_list.customValue.values.ff.fullName,
+          ]
+        },
+        {
+          valueName = salesforce.GlobalValueSet.instance.bick_list.customValue.values.cc.fullName
+          controllingFieldValue = [
+            salesforce.GlobalValueSet.instance.dick_list.customValue.values.gg.fullName,
+          ]
+        },
+      ]
+    }
+  }
+  salesforce.Text my_first_field__c {
+    apiName = "tst_obj__c.my_first_field__c"
+    description = "desc top"
+    externalId = false
+    label = "my first field"
+    length = 32
+    trackTrending = false
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Picklist odd_picklist__c {
+    apiName = "tst_obj__c.odd_picklist__c"
+    label = "odd picklist"
+    trackTrending = false
+    valueSetName = salesforce.GlobalValueSet.instance.dick_list
+    restricted = true
+  }
+  salesforce.Picklist picklist_field1__c {
+    apiName = "tst_obj__c.picklist_field1__c"
+    label = "picklist field1"
+    trackTrending = false
+    valueSet = {
+      values = {
+        ten = {
+          fullName = "ten"
+          default = false
+          label = "ten"
+        }
+        home = {
+          fullName = "home"
+          default = false
+          label = "home"
+        }
+      }
+      order = [
+        salesforce.tst_obj__c.field.picklist_field1__c.valueSet.values.ten,
+        salesforce.tst_obj__c.field.picklist_field1__c.valueSet.values.home,
+      ]
+    }
+    sorted = false
+    restricted = true
+  }
+  salesforce.Picklist picklist_field2__c {
+    apiName = "tst_obj__c.picklist_field2__c"
+    description = "desca"
+    label = "picklist field2"
+    trackTrending = false
+    valueSet = {
+      values = {
+        big_camel@s = {
+          fullName = "big camel"
+          default = false
+          label = "big camel"
+        }
+        door = {
+          fullName = "door"
+          default = false
+          label = "door"
+        }
+      }
+      order = [
+        salesforce.tst_obj__c.field.picklist_field2__c.valueSet.values.big_camel@s,
+        salesforce.tst_obj__c.field.picklist_field2__c.valueSet.values.door,
+      ]
+    }
+    sorted = false
+    restricted = true
+    fieldDependency = {
+      controllingField = salesforce.tst_obj__c.field.picklist_field1__c
+      valueSettings = [
+        {
+          valueName = salesforce.tst_obj__c.field.picklist_field2__c.valueSet.values.big_camel@s.fullName
+          controllingFieldValue = [
+            salesforce.tst_obj__c.field.picklist_field1__c.valueSet.values.ten.fullName,
+            salesforce.tst_obj__c.field.picklist_field1__c.valueSet.values.home.fullName,
+          ]
+        },
+        {
+          valueName = salesforce.tst_obj__c.field.picklist_field2__c.valueSet.values.door.fullName
+          controllingFieldValue = [
+            salesforce.tst_obj__c.field.picklist_field1__c.valueSet.values.home.fullName,
+          ]
+        },
+      ]
+    }
+  }
+}

@@ -19,6 +19,8 @@ type salesforce.OutboundNetworkConnProperty {
       values = [
         "AwsVpcEndpointId",
         "AwsVpcEndpointServiceName",
+        "DataCloudPrivateConnectDcDnsName",
+        "DataCloudPrivateConnectDcVpcEndpointId",
         "DataCloudPrivateNetworkAwsVpcEndpointId",
         "DataCloudPrivateNetworkAwsVpcEndpointServiceName",
         "DataCloudPrivateNetworkCustomUrls",

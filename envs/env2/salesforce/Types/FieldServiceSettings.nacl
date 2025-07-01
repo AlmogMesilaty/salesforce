@@ -50,6 +50,8 @@ settings salesforce.FieldServiceSettings {
   }
   boolean doesShareSaWithAr {
   }
+  string enrouteStatus {
+  }
   boolean fieldServiceNotificationsOrgPref {
   }
   boolean fieldServiceOrgPref {

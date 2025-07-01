@@ -29,6 +29,7 @@ type salesforce.PlatformActionList {
         "ListViewDefinition",
         "ListViewRecord",
         "Lookup",
+        "MetadataExplorer",
         "MruList",
         "MruRow",
         "ObjectHomeChart",

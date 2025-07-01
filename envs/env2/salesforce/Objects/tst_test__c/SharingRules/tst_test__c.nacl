@@ -1,0 +1,7 @@
+salesforce.SharingRules tst_test__c {
+  fullName = "tst_test__c"
+  _parent = [
+    salesforce.tst_test__c,
+  ]
+  _alias = "tst_test__c"
+}

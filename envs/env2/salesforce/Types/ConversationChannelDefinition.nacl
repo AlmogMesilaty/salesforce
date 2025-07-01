@@ -66,6 +66,8 @@ type salesforce.ConversationChannelDefinition {
   }
   string masterLabel {
   }
+  number maxParticipantsForCnfrOverride {
+  }
   string routingOwner {
     _restriction = {
       enforce_value = false
@@ -91,7 +93,11 @@ type salesforce.ConversationChannelDefinition {
     _hidden_value = true
     localOnly = true
   }
+  boolean isConferenceSupported {
+  }
   boolean isInboundReceiptsEnabled {
+  }
+  boolean isRoutingWorkResultEnabled {
   }
   boolean isTypingIndicatorDisabled {
   }

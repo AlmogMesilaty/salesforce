@@ -28,6 +28,7 @@ type salesforce.FlowTransformValueAction {
         "Count",
         "GetItemByIndex",
         "InnerJoin",
+        "InvocableAction",
         "Map",
         "Sum",
       ]

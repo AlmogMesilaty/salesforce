@@ -24,6 +24,8 @@ type salesforce.ExtlClntAppConfigurablePolicies {
   }
   boolean isOauthPluginEnabled {
   }
+  boolean isSamlPluginEnabled {
+  }
   string label {
   }
   string internalId {

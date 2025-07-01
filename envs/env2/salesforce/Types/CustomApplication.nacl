@@ -15,8 +15,6 @@ type salesforce.CustomApplication {
   }
   serviceid fullName {
   }
-  "List<salesforce.AppActionOverride>" actionOverrides {
-  }
   salesforce.AppBrand brand {
     foreignKeyDomain = [
       salesforce.AppBrand,
@@ -114,4 +112,6 @@ type salesforce.CustomApplication {
       indexed = false
     },
   ]
+  salesforce.AppActionOverride actionOverrides {
+  }
 }

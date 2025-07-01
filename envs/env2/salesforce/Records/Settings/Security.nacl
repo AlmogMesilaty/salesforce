@@ -10,13 +10,6 @@ salesforce.SecuritySettings {
   enablePermissionsPolicy = false
   enableRequireHttpsConnection = true
   networkAccess = {
-    ipRanges = [
-      {
-        description = "salto IL office"
-        end = "94.188.162.255"
-        start = "94.188.162.0"
-      },
-    ]
   }
   passwordPolicies = {
     complexity = "AlphaNumeric"

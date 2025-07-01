@@ -25,6 +25,7 @@ type salesforce.CspTrustedSite {
         "Communities",
         "FieldServiceMobileExtension",
         "LEX",
+        "LightningOut",
         "VisualForce",
       ]
     }

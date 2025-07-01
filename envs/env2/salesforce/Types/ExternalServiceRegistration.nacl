@@ -36,12 +36,15 @@ type salesforce.ExternalServiceRegistration {
     _restriction = {
       enforce_value = false
       values = [
+        "AgentActionOutputs",
         "Anypoint",
         "ApexRest",
         "Custom",
+        "DocumentProcessing",
         "ExternalConnector",
         "Heroku",
         "MuleSoft",
+        "NamedQuery",
         "SchemaInferred",
         "Standard",
       ]
@@ -56,6 +59,7 @@ type salesforce.ExternalServiceRegistration {
       enforce_value = false
       values = [
         "InterpretedConnectivity",
+        "JsonSchema",
         "OpenApi",
         "OpenApi3",
       ]
@@ -70,6 +74,8 @@ type salesforce.ExternalServiceRegistration {
   string serviceBinding {
   }
   string serviceDescriptor {
+  }
+  string serviceName {
   }
   string status {
     _restriction = {

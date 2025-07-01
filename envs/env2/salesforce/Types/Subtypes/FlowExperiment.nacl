@@ -49,7 +49,23 @@ type salesforce.FlowExperiment {
   }
   number locationY {
   }
+  number duration {
+  }
+  string durationUnit {
+    _restriction = {
+      enforce_value = false
+      values = [
+        "Days",
+        "Hours",
+        "Minutes",
+        "Months",
+        "Weeks",
+      ]
+    }
+  }
   salesforce.FlowExperimentPath paths {
+  }
+  number testGroupPercentage {
   }
   string type {
     _restriction = {

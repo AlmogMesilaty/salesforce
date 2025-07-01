@@ -24,10 +24,13 @@ type salesforce.ConvMsgExternalTemplateVersion {
       enforce_value = false
       values = [
         "Approved",
+        "Deleted",
         "Disabled",
         "InAppeal",
+        "LimitExceeded",
         "Paused",
         "Pending",
+        "PendingDeletion",
         "Rejected",
       ]
     }

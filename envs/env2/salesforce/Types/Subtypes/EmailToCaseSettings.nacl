@@ -45,11 +45,11 @@ type salesforce.EmailToCaseSettings {
   }
   salesforce.EmailToCaseRoutingAddress routingAddresses {
   }
-  boolean showGeneratedEmailCheckbox {
-  }
   boolean useEmailHeadersForThreading {
   }
   boolean movingEmailEnabled {
+  }
+  boolean showServiceEmailOpenPrompt {
   }
   boolean showWordCountInComposer {
   }

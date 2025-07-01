@@ -17,6 +17,8 @@ type salesforce.EntitlementProcessMilestoneItem {
   }
   string criteriaBooleanFilter {
   }
+  salesforce.MilestoneCompletionCriteria milestoneCompletionCriteria {
+  }
   salesforce.FilterItem milestoneCriteriaFilterItems {
   }
   string milestoneCriteriaFormula {

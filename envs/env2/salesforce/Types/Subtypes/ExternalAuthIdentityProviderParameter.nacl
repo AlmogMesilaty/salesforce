@@ -30,6 +30,8 @@ type salesforce.ExternalAuthIdentityProviderParameter {
         "IdentityProviderOptions",
         "JwtBodyClaim",
         "JwtHeaderClaim",
+        "ManagedByComponent",
+        "ManagedByFeature",
         "RefreshRequestBodyParameter",
         "RefreshRequestHttpHeader",
         "RefreshRequestQueryParameter",
@@ -55,4 +57,6 @@ type salesforce.ExternalAuthIdentityProviderParameter {
       indexed = false
     },
   ]
+  number sequenceNumber {
+  }
 }

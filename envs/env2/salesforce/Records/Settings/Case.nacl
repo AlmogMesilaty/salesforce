@@ -11,9 +11,9 @@ salesforce.CaseSettings {
   caseMergeInLightning = false
   closeCaseThroughStatusChange = false
   defaultCaseFeedLayoutOn = true
-  defaultCaseOwner = "almog.mesilaty+dev2@salto.io"
+  defaultCaseOwner = "almog.mesilaty+dev4@salto.io"
   defaultCaseOwnerType = "User"
-  defaultCaseUser = "almog.mesilaty+dev2@salto.io"
+  defaultCaseUser = "almog.mesilaty+dev4@salto.io"
   emailToCase = {
     enableEmailToCase = false
   }
@@ -34,6 +34,7 @@ salesforce.CaseSettings {
   notifyDefaultCaseOwner = false
   notifyOwnerOnCaseComment = false
   notifyOwnerOnCaseOwnerChange = false
+  rtaCaseComment = false
   showEmailAttachmentsInCaseAttachmentsRL = true
   useSystemEmailAddress = true
   useSystemUserAsDefaultCaseUser = false

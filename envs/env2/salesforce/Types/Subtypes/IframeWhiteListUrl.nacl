@@ -18,6 +18,7 @@ type salesforce.IframeWhiteListUrl {
       enforce_value = false
       values = [
         "DCH_ADDIN_APP",
+        "LightningOut",
         "Surveys",
         "VisualforcePages",
       ]
