@@ -137,6 +137,7 @@ type salesforce.FieldRestrictionRule {
         "SBQQ__WebQuoteLine__c",
         "SBQQ__WebQuote__c",
         "Task",
+        "Test_Custom_Object__c",
         "User",
         "VerificationHistory",
         "tst_obj__c",

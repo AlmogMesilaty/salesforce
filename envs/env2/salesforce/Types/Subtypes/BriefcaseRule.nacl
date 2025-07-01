@@ -568,6 +568,7 @@ type salesforce.BriefcaseRule {
         "SkillRequirement",
         "Solution",
         "Task",
+        "Test_Custom_Object__c",
         "TimeSlot",
         "User",
         "UserProvisioningRequest",

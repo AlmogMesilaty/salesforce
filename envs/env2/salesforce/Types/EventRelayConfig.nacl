@@ -273,6 +273,7 @@ type salesforce.EventRelayConfig {
         "TMFEventSubscriberChannel",
         "TaskChangeEvent",
         "TaskRelationChangeEvent",
+        "Test_Custom_Object__ChangeEvent",
         "TimeSlotChangeEvent",
         "TodayGoalChangeEvent",
         "UserAppInfoChangeEvent",
