@@ -227,7 +227,7 @@ type salesforce.Test_Custom_Object__c {
       actionName = "View"
       comment = "Action override created by Lightning App Builder during activation."
       content = "Almog_Lightning_Record_Page"
-      formFactor = "Large"
+      formFactor = "Small"
       skipRecordTypeSelect = false
       type = "Flexipage"
     },
@@ -235,7 +235,7 @@ type salesforce.Test_Custom_Object__c {
       actionName = "View"
       comment = "Action override created by Lightning App Builder during activation."
       content = "Almog_Lightning_Record_Page"
-      formFactor = "Small"
+      formFactor = "Large"
       skipRecordTypeSelect = false
       type = "Flexipage"
     },
@@ -266,6 +266,9 @@ type salesforce.Test_Custom_Object__c {
   sharingModel = "ReadWrite"
   visibility = "Public"
   _alias = "Test Custom Object"
+  topicsForObjects = {
+    enableTopics = false
+  }
   _generated_dependencies = [
     {
       reference = salesforce.LightningPage.instance.Almog_Lightning_Record_Page
