@@ -1,0 +1,22 @@
+type salesforce.Third_CMT__mdt {
+  annotations {
+    serviceid apiName {
+    }
+    serviceid metadataType {
+    }
+    string label {
+    }
+    string description {
+    }
+    string pluralLabel {
+    }
+    hidden_string keyPrefix {
+    }
+  }
+  apiName = "Third_CMT__mdt"
+  metadataType = "CustomMetadata"
+  label = "Third_CMT"
+  description = ""
+  pluralLabel = "Third_CMTs"
+  _alias = "Third_CMT"
+}

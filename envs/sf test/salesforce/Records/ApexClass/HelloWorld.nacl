@@ -1,0 +1,7 @@
+salesforce.ApexClass HelloWorld {
+  apiVersion = 64
+  status = "Active"
+  fullName = "HelloWorld"
+  content = file("salesforce/Records/ApexClass/HelloWorld.cls")
+  _alias = "HelloWorld"
+}
