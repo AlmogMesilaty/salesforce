@@ -1,0 +1,48 @@
+salesforce.Account "001WU00000V4XLbYAN" {
+  AccountNumber = "CC978213"
+  AnnualRevenue = 30000000
+  CleanStatus = "Pending"
+  Description = "Genomics company engaged in mapping and sequencing of the human genome and developing gene-based drugs"
+  Fax = "(650) 867-9895"
+  Industry = "Biotechnology"
+  Name = "GenePoint"
+  NumberOfEmployees = 265
+  Ownership = "Private"
+  Phone = "(650) 867-3450"
+  Rating = "Cold"
+  Sic = "3712"
+  Type = "Customer - Channel"
+  Website = "www.genepoint.com"
+  Active__c = salesforce.Account.field.Active__c.valueSet.values.Yes.fullName
+  CustomerPriority__c = salesforce.Account.field.CustomerPriority__c.valueSet.values.Low.fullName
+  NumberofLocations__c = 1
+  SLAExpirationDate__c = "2025-06-07"
+  SLASerialNumber__c = "7324"
+  SLA__c = salesforce.Account.field.SLA__c.valueSet.values.Bronze.fullName
+  UpsellOpportunity__c = salesforce.Account.field.UpsellOpportunity__c.valueSet.values.Yes.fullName
+  IsCustomerPortal = false
+  IsPartner = false
+  isunknown__c = false
+  SBQQ__AssetQuantitiesCombined__c = false
+  SBQQ__CoTermedContractsCombined__c = false
+  SBQQ__IgnoreParentContractedPrices__c = false
+  SBQQ__PreserveBundle__c = false
+  BillingAddress = {
+    city = "Mountain View"
+    state = "CA"
+    street = '''
+345 Shoreline Park
+Mountain View, CA 94043
+USA
+'''
+  }
+  ShippingAddress = {
+    street = '''
+345 Shoreline Park
+Mountain View, CA 94043
+USA
+'''
+  }
+  PhotoUrl = "/services/images/photo/001WU00000V4XLbYAN"
+  _alias = "GenePoint"
+}

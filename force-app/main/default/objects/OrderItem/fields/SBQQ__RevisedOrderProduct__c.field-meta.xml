@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__RevisedOrderProduct__c</fullName>
+    <label>Revised Order Product</label>
+    <type>Lookup</type>
+    <required>false</required>
+    <referenceTo>OrderItem</referenceTo>
+    <relationshipName>RevisingOrderProducts</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>References the order product that this order product revises.</description>
+    <inlineHelpText>References the order product that this order product revises.</inlineHelpText>
+    <relationshipLabel>Order Products (Revised Order Product)</relationshipLabel>
+    <trackHistory>false</trackHistory>
+</CustomField>

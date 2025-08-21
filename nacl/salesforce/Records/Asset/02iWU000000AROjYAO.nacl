@@ -1,0 +1,19 @@
+salesforce.Asset "02iWU000000AROjYAO" {
+  AssetLevel = 1
+  HasLifecycleManagement = false
+  RootAssetId = salesforce.Asset.instance.02iWU000000AROjYAO
+  AccountId = salesforce.Account.instance.001WU00000V4XLcYAN
+  Description = "This is a blue house"
+  IsCompetitorProduct = true
+  IsInternal = false
+  Name = "Asset2"
+  Price = 99
+  Quantity = 6
+  SerialNumber = "888332"
+  Status = "Installed"
+  SBQQ__Bundle__c = false
+  SBQQ__Bundled__c = false
+  SBQQ__ComponentDiscountedByPackage__c = false
+  SBQQ__FromServiceCloud__c = false
+  _alias = "Asset2"
+}

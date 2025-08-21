@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Value_Assignment</name>
+        <label>Value Assignment</label>
+        <assignmentItems>
+            <assignToReference>$Flow.CurrentRecord</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>&quot;&quot;</stringValue>
+            </value>
+        </assignmentItems>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+    </assignments>
+    <environments>Default</environments>
+    <interviewLabel>Flow for approval process {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Flow for approval process</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <connector>
+            <targetReference>Value_Assignment</targetReference>
+        </connector>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+    </start>
+    <status>Active</status>
+</Flow>

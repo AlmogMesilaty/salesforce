@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__GenerateContractedPrice__c</fullName>
+    <label>Generate Contracted Price</label>
+    <type>Picklist</type>
+    <required>false</required>
+    <valueSet>
+        <valueSetDefinition>
+            <value>
+                <fullName>Price</fullName>
+                <isActive>true</isActive>
+                <label>Price</label>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Discount Schedule</fullName>
+                <isActive>true</isActive>
+                <label>Discount Schedule</label>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Do Not Generate</fullName>
+                <isActive>true</isActive>
+                <label>Do Not Generate</label>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <deprecated>false</deprecated>
+    <description>Will generate a contracted price based on the adjusted quote line if flagged.</description>
+    <inlineHelpText>Will generate a contracted price based on the adjusted quote line if flagged.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

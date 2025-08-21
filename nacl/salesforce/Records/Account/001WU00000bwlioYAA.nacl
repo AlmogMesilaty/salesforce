@@ -1,0 +1,49 @@
+salesforce.Account "001WU00000bwlioYAA" {
+  AccountNumber = "999"
+  AnnualRevenue = 100000000
+  CleanStatus = "Pending"
+  Fax = "1111"
+  Industry = "Education"
+  Name = "Best Account"
+  NumberOfEmployees = 900
+  Ownership = "Public"
+  ParentId = salesforce.Account.instance.001WU00000V4XLcYAN
+  Phone = "444-010-1982"
+  Rating = "Hot"
+  Sic = "666"
+  Site = "Los-Santos"
+  TickerSymbol = "%"
+  Type = "Customer - Channel"
+  Website = "www.account1owner.com"
+  Active__c = salesforce.Account.field.Active__c.valueSet.values.Yes.fullName
+  CustomerPriority__c = salesforce.Account.field.CustomerPriority__c.valueSet.values.High.fullName
+  NumberofLocations__c = 5
+  SLAExpirationDate__c = "2025-01-30"
+  SLASerialNumber__c = "00000"
+  SLA__c = salesforce.Account.field.SLA__c.valueSet.values.Gold.fullName
+  UpsellOpportunity__c = salesforce.Account.field.UpsellOpportunity__c.valueSet.values.Maybe.fullName
+  IsCustomerPortal = false
+  IsPartner = false
+  isunknown__c = false
+  test_for_unknown__c = "2025-01-02"
+  SBQQ__AssetQuantitiesCombined__c = false
+  SBQQ__CoTermedContractsCombined__c = false
+  SBQQ__IgnoreParentContractedPrices__c = false
+  SBQQ__PreserveBundle__c = false
+  BillingAddress = {
+    city = "Haifa"
+    country = "Israel"
+    postalCode = "757575"
+    state = "North"
+    street = "Great street"
+  }
+  ShippingAddress = {
+    city = "Ashdod"
+    country = "Israel"
+    postalCode = "848484"
+    state = "South"
+    street = "Beautiful street"
+  }
+  PhotoUrl = "/services/images/photo/001WU00000bwlioYAA"
+  _alias = "Best Account"
+}

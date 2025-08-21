@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__UpgradeSource__c</fullName>
+    <label>Upgrade Source</label>
+    <type>Lookup</type>
+    <required>false</required>
+    <referenceTo>Product2</referenceTo>
+    <relationshipName>TargetUpgrades</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Specifies the product being upgraded.</description>
+    <inlineHelpText>Product being upgraded. Populating this field makes this product an upgrade.</inlineHelpText>
+    <relationshipLabel>Target Upgrades</relationshipLabel>
+    <trackHistory>false</trackHistory>
+</CustomField>

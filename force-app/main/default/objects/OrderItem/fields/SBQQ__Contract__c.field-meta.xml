@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Contract__c</fullName>
+    <label>Contract</label>
+    <type>Lookup</type>
+    <required>false</required>
+    <referenceTo>Contract</referenceTo>
+    <relationshipName>OrderProducts</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The contract of the subscription that is created from this order product.</description>
+    <inlineHelpText>The contract of the subscription that is created from this order product.</inlineHelpText>
+    <relationshipLabel>Order Products</relationshipLabel>
+    <trackHistory>false</trackHistory>
+</CustomField>

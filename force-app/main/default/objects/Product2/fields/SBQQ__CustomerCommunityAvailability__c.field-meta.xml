@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__CustomerCommunityAvailability__c</fullName>
+    <label>Customer Community Availability</label>
+    <type>Picklist</type>
+    <required>false</required>
+    <valueSet>
+        <valueSetDefinition>
+            <value>
+                <fullName>Only when already owned</fullName>
+                <isActive>true</isActive>
+                <label>Only when already owned</label>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Always</fullName>
+                <isActive>true</isActive>
+                <label>Always</label>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Never</fullName>
+                <isActive>true</isActive>
+                <label>Never</label>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <deprecated>false</deprecated>
+    <description>Determines availability of this product in Customer Community.</description>
+    <inlineHelpText>Select how this product should be available in Customer Communities.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

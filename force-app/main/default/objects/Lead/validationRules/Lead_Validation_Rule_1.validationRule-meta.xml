@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Validation_Rule_1</fullName>
+    <active>true</active>
+    <errorConditionFormula>Id  = &quot;invalid&quot;</errorConditionFormula>
+    <errorMessage>ID can not be invalid</errorMessage>
+</ValidationRule>

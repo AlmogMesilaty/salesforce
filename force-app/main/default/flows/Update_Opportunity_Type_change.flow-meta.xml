@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Set_Opportunity_Type</name>
+        <label>Set Opportunity Type</label>
+        <assignmentItems>
+            <assignToReference>$Record.Type</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>UpdateOpportunityType</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Id</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.ContactId</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Opportunity</targetReference>
+        </connector>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+    </assignments>
+    <environments>Default</environments>
+    <formulas>
+        <name>UpdateOpportunityType</name>
+        <dataType>String</dataType>
+        <expression>&apos;New Type&apos;</expression>
+    </formulas>
+    <interviewLabel>Update Opportunity Type {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Update Opportunity Type</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Opportunity</name>
+        <label>Update Opportunity</label>
+        <inputReference>$Record</inputReference>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+    </recordUpdates>
+    <start>
+        <connector>
+            <targetReference>Set_Opportunity_Type</targetReference>
+        </connector>
+        <object>Opportunity</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+    </start>
+    <status>Draft</status>
+</Flow>

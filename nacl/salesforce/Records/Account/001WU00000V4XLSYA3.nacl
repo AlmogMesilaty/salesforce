@@ -1,0 +1,37 @@
+salesforce.Account "001WU00000V4XLSYA3" {
+  AccountNumber = "CD656092"
+  AnnualRevenue = 350000000
+  CleanStatus = "Pending"
+  Fax = "(336) 222-8000"
+  Industry = "Apparel"
+  Name = "Burlington Textiles Corp of America"
+  NumberOfEmployees = 9000
+  Ownership = "Public"
+  Phone = "(336) 222-7000"
+  Rating = "Warm"
+  Sic = "546732"
+  TickerSymbol = "BTXT"
+  Type = "Customer - Direct"
+  Website = "www.burlington.com"
+  NumberofLocations__c = 6
+  SLAExpirationDate__c = "2024-12-05"
+  SLASerialNumber__c = "5367"
+  SLA__c = salesforce.Account.field.SLA__c.valueSet.values.Silver.fullName
+  UpsellOpportunity__c = salesforce.Account.field.UpsellOpportunity__c.valueSet.values.Maybe.fullName
+  IsCustomerPortal = false
+  IsPartner = false
+  isunknown__c = false
+  SBQQ__AssetQuantitiesCombined__c = false
+  SBQQ__CoTermedContractsCombined__c = false
+  SBQQ__IgnoreParentContractedPrices__c = false
+  SBQQ__PreserveBundle__c = false
+  BillingAddress = {
+    city = "Burlington"
+    country = "USA"
+    postalCode = "27215"
+    state = "NC"
+    street = "525 S. Lexington Ave"
+  }
+  PhotoUrl = "/services/images/photo/001WU00000V4XLSYA3"
+  _alias = "Burlington Textiles Corp of America"
+}

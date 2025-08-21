@@ -1,0 +1,45 @@
+salesforce.Account "001WU00000V4XLZYA3" {
+  AccountNumber = "CD355119-A"
+  CleanStatus = "Pending"
+  Fax = "+44 191 4956620"
+  Industry = "Energy"
+  Name = "United Oil & Gas, UK"
+  NumberOfEmployees = 24000
+  Ownership = "Public"
+  Phone = "+44 191 4956203"
+  Sic = "4437"
+  TickerSymbol = "UOS"
+  Type = "Customer - Direct"
+  Website = "http://www.uos.com"
+  Active__c = salesforce.Account.field.Active__c.valueSet.values.Yes.fullName
+  CustomerPriority__c = salesforce.Account.field.CustomerPriority__c.valueSet.values.High.fullName
+  NumberofLocations__c = 34
+  SLAExpirationDate__c = "2024-12-05"
+  SLASerialNumber__c = "3479"
+  SLA__c = salesforce.Account.field.SLA__c.valueSet.values.Platinum.fullName
+  UpsellOpportunity__c = salesforce.Account.field.UpsellOpportunity__c.valueSet.values.No.fullName
+  IsCustomerPortal = false
+  IsPartner = false
+  isunknown__c = false
+  SBQQ__AssetQuantitiesCombined__c = false
+  SBQQ__CoTermedContractsCombined__c = false
+  SBQQ__IgnoreParentContractedPrices__c = false
+  SBQQ__PreserveBundle__c = false
+  BillingAddress = {
+    state = "UK"
+    street = '''
+Kings Park, 17th Avenue, Team Valley Trading Estate,
+Gateshead, Tyne and Wear NE26 3HS
+United Kingdom
+'''
+  }
+  ShippingAddress = {
+    street = '''
+Kings Park, 17th Avenue, Team Valley Trading Estate,
+Gateshead, Tyne and Wear NE26 3HS
+United Kingdom
+'''
+  }
+  PhotoUrl = "/services/images/photo/001WU00000V4XLZYA3"
+  _alias = "United Oil & Gas, UK"
+}

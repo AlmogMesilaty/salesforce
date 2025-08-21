@@ -1,0 +1,18 @@
+salesforce.Asset "02iWU000000ARN7YAO" {
+  AssetLevel = 1
+  HasLifecycleManagement = false
+  RootAssetId = salesforce.Asset.instance.02iWU000000ARN7YAO
+  AccountId = salesforce.Account.instance.001WU00000V4XLcYAN
+  InstallDate = "2030-01-23"
+  IsCompetitorProduct = true
+  IsInternal = false
+  Name = "Best Asset!"
+  Quantity = 2
+  SerialNumber = "01"
+  Status = "Obsolete"
+  SBQQ__Bundle__c = false
+  SBQQ__Bundled__c = false
+  SBQQ__ComponentDiscountedByPackage__c = false
+  SBQQ__FromServiceCloud__c = false
+  _alias = "Best Asset!"
+}

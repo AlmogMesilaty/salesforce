@@ -1,0 +1,46 @@
+salesforce.Account "001WU00000V4XLaYAN" {
+  AccountNumber = "CD355120-B"
+  CleanStatus = "Pending"
+  Fax = "(650) 450-8820"
+  Industry = "Energy"
+  Name = "invalid"
+  NumberOfEmployees = 3000
+  Ownership = "Public"
+  Phone = "(650) 450-8810"
+  Sic = "4437"
+  TickerSymbol = "UOS"
+  Type = "Customer - Direct"
+  Website = "http://www.uos.com"
+  Active__c = salesforce.Account.field.Active__c.valueSet.values.Yes.fullName
+  CustomerPriority__c = salesforce.Account.field.CustomerPriority__c.valueSet.values.High.fullName
+  NumberofLocations__c = 6
+  SLAExpirationDate__c = "2025-06-07"
+  SLASerialNumber__c = "2457"
+  SLA__c = salesforce.Account.field.SLA__c.valueSet.values.Platinum.fullName
+  UpsellOpportunity__c = salesforce.Account.field.UpsellOpportunity__c.valueSet.values.Maybe.fullName
+  IsCustomerPortal = false
+  IsPartner = false
+  isunknown__c = false
+  SBQQ__AssetQuantitiesCombined__c = false
+  SBQQ__CoTermedContractsCombined__c = false
+  SBQQ__IgnoreParentContractedPrices__c = false
+  SBQQ__PreserveBundle__c = false
+  BillingAddress = {
+    city = "Singapore"
+    state = "Singapore"
+    street = '''
+9 Tagore Lane
+Singapore, Singapore 787472
+Singapore
+'''
+  }
+  ShippingAddress = {
+    street = '''
+9 Tagore Lane
+Singapore, Singapore 787472
+Singapore
+'''
+  }
+  PhotoUrl = "/services/images/photo/001WU00000V4XLaYAN"
+  _alias = "invalid"
+}

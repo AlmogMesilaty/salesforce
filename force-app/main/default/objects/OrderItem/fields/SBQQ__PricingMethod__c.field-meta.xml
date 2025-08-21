@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__PricingMethod__c</fullName>
+    <label>Pricing Method</label>
+    <type>Picklist</type>
+    <required>false</required>
+    <valueSet>
+        <valueSetDefinition>
+            <value>
+                <fullName>List</fullName>
+                <isActive>true</isActive>
+                <label>List</label>
+                <default>true</default>
+            </value>
+            <value>
+                <fullName>Cost</fullName>
+                <isActive>true</isActive>
+                <label>Cost</label>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Block</fullName>
+                <isActive>true</isActive>
+                <label>Block</label>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Percent Of Total</fullName>
+                <isActive>true</isActive>
+                <label>Percent Of Total</label>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Custom</fullName>
+                <isActive>true</isActive>
+                <label>Custom</label>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <deprecated>false</deprecated>
+    <description>Determines how the price for this line item is set. &quot;List&quot; = calculated by subtracting discount from list price. &quot;Cost&quot;  = calculated by adding markup to cost.</description>
+    <inlineHelpText>Indicates how the price for this line item is calculated. &quot;List&quot; = subtracting discount from list price. &quot;Cost&quot; = adding markup to cost.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

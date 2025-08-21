@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CartCustomName__c</fullName>
+    <label>CartCustomName</label>
+    <type>Text</type>
+    <required>true</required>
+    <length>34</length>
+    <unique>false</unique>
+    <caseSensitive>false</caseSensitive>
+    <externalId>false</externalId>
+</CustomField>

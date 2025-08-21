@@ -1,0 +1,49 @@
+salesforce.Account "001WU00000V4XLRYA3" {
+  AccountNumber = "CD451796"
+  AnnualRevenue = 139000000
+  CleanStatus = "Pending"
+  Description = "Edge, founded in 1998, is a start-up based in Austin, TX. The company designs and manufactures a device to convert music from one digital format to another. Edge sells its product through retailers and its own website."
+  Fax = "(512) 757-9000"
+  Industry = "Electronics"
+  Name = "Edge Communications"
+  NumberOfEmployees = 1000
+  Ownership = "Public"
+  Phone = "(512) 757-6000"
+  Rating = "Hot"
+  Sic = "6576"
+  TickerSymbol = "EDGE"
+  Type = "Customer - Direct"
+  Website = "http://edgecomm.com"
+  Active__c = salesforce.Account.field.Active__c.valueSet.values.Yes.fullName
+  CustomerPriority__c = salesforce.Account.field.CustomerPriority__c.valueSet.values.Medium.fullName
+  NumberofLocations__c = 2
+  SLAExpirationDate__c = "2024-12-05"
+  SLASerialNumber__c = "2657"
+  SLA__c = salesforce.Account.field.SLA__c.valueSet.values.Silver.fullName
+  UpsellOpportunity__c = salesforce.Account.field.UpsellOpportunity__c.valueSet.values.Maybe.fullName
+  IsCustomerPortal = false
+  IsPartner = false
+  isunknown__c = false
+  SBQQ__AssetQuantitiesCombined__c = false
+  SBQQ__CoTermedContractsCombined__c = false
+  SBQQ__IgnoreParentContractedPrices__c = false
+  SBQQ__PreserveBundle__c = false
+  BillingAddress = {
+    city = "Austin"
+    state = "TX"
+    street = '''
+312 Constitution Place
+Austin, TX 78767
+USA
+'''
+  }
+  ShippingAddress = {
+    street = '''
+312 Constitution Place
+Austin, TX 78767
+USA
+'''
+  }
+  PhotoUrl = "/services/images/photo/001WU00000V4XLRYA3"
+  _alias = "Edge Communications"
+}

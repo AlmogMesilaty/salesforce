@@ -1,0 +1,44 @@
+salesforce.Account "001WU00000V4XLUYA3" {
+  AccountNumber = "CC634267"
+  AnnualRevenue = 50000000
+  CleanStatus = "Pending"
+  Fax = "(785) 241-6201"
+  Industry = "Consulting"
+  Name = "Dickenson plc"
+  NumberOfEmployees = 120
+  Ownership = "Private"
+  Phone = "(785) 241-6200"
+  Sic = "6752"
+  Type = "Customer - Channel"
+  Website = "dickenson-consulting.com"
+  Active__c = salesforce.Account.field.Active__c.valueSet.values.Yes.fullName
+  CustomerPriority__c = salesforce.Account.field.CustomerPriority__c.valueSet.values.Low.fullName
+  NumberofLocations__c = 2
+  SLAExpirationDate__c = "2025-06-07"
+  SLASerialNumber__c = "7425"
+  SLA__c = salesforce.Account.field.SLA__c.valueSet.values.Bronze.fullName
+  UpsellOpportunity__c = salesforce.Account.field.UpsellOpportunity__c.valueSet.values.No.fullName
+  IsCustomerPortal = false
+  IsPartner = false
+  isunknown__c = false
+  SBQQ__AssetQuantitiesCombined__c = false
+  SBQQ__CoTermedContractsCombined__c = false
+  SBQQ__IgnoreParentContractedPrices__c = false
+  SBQQ__PreserveBundle__c = false
+  BillingAddress = {
+    city = "Lawrence"
+    country = "USA"
+    postalCode = "66045"
+    state = "KS"
+    street = "1301 Hoch Drive"
+  }
+  ShippingAddress = {
+    city = "Lawrence"
+    country = "USA"
+    postalCode = "66045"
+    state = "KS"
+    street = "1301 Hoch Drive"
+  }
+  PhotoUrl = "/services/images/photo/001WU00000V4XLUYA3"
+  _alias = "Dickenson plc"
+}

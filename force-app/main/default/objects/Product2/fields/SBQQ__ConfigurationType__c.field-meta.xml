@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ConfigurationType__c</fullName>
+    <label>Configuration Type</label>
+    <type>Picklist</type>
+    <required>false</required>
+    <valueSet>
+        <valueSetDefinition>
+            <value>
+                <fullName>Required</fullName>
+                <isActive>true</isActive>
+                <label>Required</label>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Allowed</fullName>
+                <isActive>true</isActive>
+                <label>Allowed</label>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Disabled</fullName>
+                <isActive>true</isActive>
+                <label>Disabled</label>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <deprecated>false</deprecated>
+    <description>Configuration type of this product: Choose Allowed if the user is allowed to configure the product/bundle, but not required to, Disabled when your bundle automatically selects options, or Required if the product/bundle must be configured.</description>
+    <inlineHelpText>Configuration type of this product: Choose Allowed if the user is allowed to configure the product/bundle, but not required to, Disabled when your bundle automatically selects options, or Required if the product/bundle must be configured.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

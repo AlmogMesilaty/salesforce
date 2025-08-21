@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__RenewalModel__c</fullName>
+    <label>Renewal Model</label>
+    <type>Picklist</type>
+    <required>false</required>
+    <valueSet>
+        <valueSetDefinition>
+            <value>
+                <fullName>Asset Based</fullName>
+                <isActive>true</isActive>
+                <label>Asset Based</label>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Contract Based</fullName>
+                <isActive>true</isActive>
+                <label>Contract Based</label>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <deprecated>false</deprecated>
+    <description>The option to distinguish between Subscription or Asset based renewal.</description>
+    <inlineHelpText>Choose Asset Based to make renewals based off of an account&apos;s assets, or choose Contract Based to make renewals based off of contracts created from a quote.</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+</CustomField>

@@ -1,0 +1,49 @@
+salesforce.Account "001WU00000V4XLXYA3" {
+  AccountNumber = "CC947211"
+  AnnualRevenue = 950000000
+  CleanStatus = "Pending"
+  Description = "Commerical logistics and transportation company."
+  Fax = "(503) 421-7801"
+  Industry = "Transportation"
+  Name = "Express Logistics and Transport"
+  NumberOfEmployees = 12300
+  Ownership = "Public"
+  Phone = "(503) 421-7800"
+  Rating = "Cold"
+  Sic = "8742"
+  TickerSymbol = "EXLT"
+  Type = "Customer - Channel"
+  Website = "www.expressl&t.net"
+  Active__c = salesforce.Account.field.Active__c.valueSet.values.Yes.fullName
+  CustomerPriority__c = salesforce.Account.field.CustomerPriority__c.valueSet.values.Medium.fullName
+  NumberofLocations__c = 150
+  SLAExpirationDate__c = "2025-06-07"
+  SLASerialNumber__c = "4724"
+  SLA__c = salesforce.Account.field.SLA__c.valueSet.values.Platinum.fullName
+  UpsellOpportunity__c = salesforce.Account.field.UpsellOpportunity__c.valueSet.values.Maybe.fullName
+  IsCustomerPortal = false
+  IsPartner = false
+  isunknown__c = false
+  SBQQ__AssetQuantitiesCombined__c = false
+  SBQQ__CoTermedContractsCombined__c = false
+  SBQQ__IgnoreParentContractedPrices__c = false
+  SBQQ__PreserveBundle__c = false
+  BillingAddress = {
+    city = "Portland"
+    state = "OR"
+    street = '''
+620 SW 5th Avenue Suite 400
+Portland, Oregon 97204
+United States
+'''
+  }
+  ShippingAddress = {
+    street = '''
+620 SW 5th Avenue Suite 400
+Portland, Oregon 97204
+United States
+'''
+  }
+  PhotoUrl = "/services/images/photo/001WU00000V4XLXYA3"
+  _alias = "Express Logistics and Transport"
+}

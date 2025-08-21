@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__DefaultPricingTable__c</fullName>
+    <label>Default Pricing Table</label>
+    <type>Picklist</type>
+    <required>false</required>
+    <valueSet>
+        <valueSetDefinition>
+            <value>
+                <fullName>Segmented</fullName>
+                <isActive>true</isActive>
+                <label>Segmented</label>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Standard</fullName>
+                <isActive>true</isActive>
+                <label>Standard</label>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <deprecated>false</deprecated>
+    <trackHistory>false</trackHistory>
+</CustomField>

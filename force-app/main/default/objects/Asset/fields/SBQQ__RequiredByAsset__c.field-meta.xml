@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__RequiredByAsset__c</fullName>
+    <label>Required By Asset</label>
+    <type>Lookup</type>
+    <required>false</required>
+    <referenceTo>Asset</referenceTo>
+    <relationshipName>ChildAssets</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <inlineHelpText>The parent Asset. If populated, this Asset is a child in a bundle.</inlineHelpText>
+    <relationshipLabel>Assets (Required By Asset)</relationshipLabel>
+    <trackHistory>false</trackHistory>
+</CustomField>

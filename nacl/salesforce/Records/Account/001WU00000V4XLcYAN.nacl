@@ -1,0 +1,23 @@
+salesforce.Account "001WU00000V4XLcYAN" {
+  BillingAddress = {
+    city = "San Francisco"
+    country = "US"
+    postalCode = "94087"
+    state = "CA"
+    street = "The Landmark @ One Market"
+  }
+  PhotoUrl = "/services/images/photo/001WU00000V4XLcYAN"
+  CleanStatus = "Pending"
+  Fax = "(415) 901-7002"
+  Name = "sForce"
+  Phone = "(415) 901-7000"
+  Website = "www.sforce.com"
+  IsCustomerPortal = false
+  IsPartner = false
+  isunknown__c = false
+  SBQQ__AssetQuantitiesCombined__c = false
+  SBQQ__CoTermedContractsCombined__c = false
+  SBQQ__IgnoreParentContractedPrices__c = false
+  SBQQ__PreserveBundle__c = false
+  _alias = "sForce"
+}

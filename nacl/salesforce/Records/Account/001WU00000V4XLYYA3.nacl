@@ -1,0 +1,49 @@
+salesforce.Account "001WU00000V4XLYYA3" {
+  AccountNumber = "CD736025"
+  CleanStatus = "Pending"
+  Description = "Leading university in AZ offering undergraduate and graduate programs in arts and humanities, pure sciences, engineering, business, and medicine."
+  Fax = "(520) 773-9060"
+  Industry = "Education"
+  Name = "University of Arizona"
+  NumberOfEmployees = 39000
+  Ownership = "Other"
+  Phone = "(520) 773-9050"
+  Rating = "Warm"
+  Sic = "7321"
+  Type = "Customer - Direct"
+  Website = "www.universityofarizona.com"
+  Active__c = salesforce.Account.field.Active__c.valueSet.values.Yes.fullName
+  CustomerPriority__c = salesforce.Account.field.CustomerPriority__c.valueSet.values.Medium.fullName
+  NumberofLocations__c = 3
+  SLAExpirationDate__c = "2024-12-05"
+  SLASerialNumber__c = "8350"
+  SLA__c = salesforce.Account.field.SLA__c.valueSet.values.Gold.fullName
+  UpsellOpportunity__c = salesforce.Account.field.UpsellOpportunity__c.valueSet.values.Yes.fullName
+  IsCustomerPortal = false
+  IsPartner = false
+  isunknown__c = false
+  SBQQ__AssetQuantitiesCombined__c = false
+  SBQQ__CoTermedContractsCombined__c = false
+  SBQQ__IgnoreParentContractedPrices__c = false
+  SBQQ__PreserveBundle__c = false
+  BillingAddress = {
+    city = "Tucson"
+    state = "AZ"
+    street = '''
+888 N Euclid 
+Hallis Center, Room 501
+Tucson, AZ 85721
+United States
+'''
+  }
+  ShippingAddress = {
+    street = '''
+888 N Euclid 
+Hallis Center, Room 501
+Tucson, AZ 85721
+United States
+'''
+  }
+  PhotoUrl = "/services/images/photo/001WU00000V4XLYYA3"
+  _alias = "University of Arizona"
+}

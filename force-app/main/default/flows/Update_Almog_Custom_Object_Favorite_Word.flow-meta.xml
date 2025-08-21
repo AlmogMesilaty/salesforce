@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Update_Favorite_Word</name>
+        <label>Update Favorite Word</label>
+        <assignmentItems>
+            <assignToReference>$Record.Favorite_word__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>ConcatSign</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Almog_Decision</targetReference>
+        </connector>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+    </assignments>
+    <decisions>
+        <name>Almog_Decision</name>
+        <label>Almog Decision</label>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Almog_Decision_Outcome</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Profile.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record.Name</elementReference>
+                </rightValue>
+            </conditions>
+            <label>Almog Decision Outcome</label>
+        </rules>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>ConcatSign</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.Favorite_word__c}&amp; &quot;&amp;!&quot;</expression>
+    </formulas>
+    <interviewLabel>Update Almog Custom Object Favorite Word {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Update Almog Custom Object Favorite Word</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <connector>
+            <targetReference>Update_Favorite_Word</targetReference>
+        </connector>
+        <object>Almog_Custom_Object__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+    </start>
+    <status>Active</status>
+</Flow>

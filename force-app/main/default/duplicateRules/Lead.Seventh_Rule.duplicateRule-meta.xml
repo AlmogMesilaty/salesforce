@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DuplicateRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOnInsert>Allow</actionOnInsert>
+    <actionOnUpdate>Allow</actionOnUpdate>
+    <alertText>Use one of these records?</alertText>
+    <duplicateRuleFilter>
+        <duplicateRuleFilterItems>
+            <field>AnnualRevenue</field>
+            <operation>equals</operation>
+            <value>7</value>
+            <sortOrder>1</sortOrder>
+            <table>Lead</table>
+        </duplicateRuleFilterItems>
+    </duplicateRuleFilter>
+    <duplicateRuleMatchRules>
+        <matchRuleSObjectType>Lead</matchRuleSObjectType>
+        <matchingRule>Standard_Lead_Match_Rule_v1_0</matchingRule>
+    </duplicateRuleMatchRules>
+    <isActive>false</isActive>
+    <masterLabel>Seventh Rule</masterLabel>
+    <operationsOnInsert>Alert</operationsOnInsert>
+    <operationsOnInsert>Report</operationsOnInsert>
+    <securityOption>EnforceSharingRules</securityOption>
+    <sortOrder>7</sortOrder>
+</DuplicateRule>

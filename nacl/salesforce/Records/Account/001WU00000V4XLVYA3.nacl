@@ -1,0 +1,47 @@
+salesforce.Account "001WU00000V4XLVYA3" {
+  AccountNumber = "CD439877"
+  AnnualRevenue = 500000000
+  CleanStatus = "Pending"
+  Description = "Chain of hotels and resorts across the US, UK, Eastern Europe, Japan, and SE Asia."
+  Fax = "(312) 596-1500"
+  Industry = "Hospitality"
+  Name = "Grand Hotels & Resorts Ltd"
+  NumberOfEmployees = 5600
+  Ownership = "Public"
+  Phone = "(312) 596-1000"
+  Rating = "Warm"
+  Sic = "2268"
+  TickerSymbol = "GHTL"
+  Type = "Customer - Direct"
+  Website = "www.grandhotels.com"
+  Active__c = salesforce.Account.field.Active__c.valueSet.values.Yes.fullName
+  CustomerPriority__c = salesforce.Account.field.CustomerPriority__c.valueSet.values.High.fullName
+  NumberofLocations__c = 57
+  SLAExpirationDate__c = "2025-06-07"
+  SLASerialNumber__c = "5572"
+  SLA__c = salesforce.Account.field.SLA__c.valueSet.values.Gold.fullName
+  UpsellOpportunity__c = salesforce.Account.field.UpsellOpportunity__c.valueSet.values.Yes.fullName
+  IsCustomerPortal = false
+  IsPartner = false
+  isunknown__c = false
+  SBQQ__AssetQuantitiesCombined__c = false
+  SBQQ__CoTermedContractsCombined__c = false
+  SBQQ__IgnoreParentContractedPrices__c = false
+  SBQQ__PreserveBundle__c = false
+  BillingAddress = {
+    city = "Chicago"
+    state = "IL"
+    street = '''
+2334 N. Michigan Avenue, Suite 1500
+Chicago, IL 60601, USA
+'''
+  }
+  ShippingAddress = {
+    street = '''
+2334 N. Michigan Avenue, Suite 1500
+Chicago, IL 60601, USA
+'''
+  }
+  PhotoUrl = "/services/images/photo/001WU00000V4XLVYA3"
+  _alias = "Grand Hotels & Resorts Ltd"
+}

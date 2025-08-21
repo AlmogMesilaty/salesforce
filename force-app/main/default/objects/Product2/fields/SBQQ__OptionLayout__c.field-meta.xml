@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__OptionLayout__c</fullName>
+    <label>Option Layout</label>
+    <type>Picklist</type>
+    <required>false</required>
+    <valueSet>
+        <valueSetDefinition>
+            <value>
+                <fullName>Sections</fullName>
+                <isActive>true</isActive>
+                <label>Sections</label>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Tabs</fullName>
+                <isActive>true</isActive>
+                <label>Tabs</label>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Wizard</fullName>
+                <isActive>true</isActive>
+                <label>Wizard</label>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <deprecated>false</deprecated>
+    <description>Determines how options are presented to users.</description>
+    <inlineHelpText>Determines how options are presented to users.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

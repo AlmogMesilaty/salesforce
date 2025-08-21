@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LeadCustomText__c</fullName>
+    <label>LeadCustomText</label>
+    <type>Text</type>
+    <required>true</required>
+    <length>54</length>
+    <unique>false</unique>
+    <caseSensitive>false</caseSensitive>
+    <externalId>false</externalId>
+    <trackFeedHistory>false</trackFeedHistory>
+</CustomField>

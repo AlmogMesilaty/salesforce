@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Field_referencing_field__c</fullName>
+    <label>Field referencing field</label>
+    <type>MetadataRelationship</type>
+    <required>true</required>
+    <referenceTo>FieldDefinition</referenceTo>
+    <relationshipName>SecondCMTs</relationshipName>
+    <metadataRelationshipControllingField>SecondCMT__mdt.Field_referencing_entity__c</metadataRelationshipControllingField>
+    <relationshipLabel>SecondCMTs</relationshipLabel>
+</CustomField>

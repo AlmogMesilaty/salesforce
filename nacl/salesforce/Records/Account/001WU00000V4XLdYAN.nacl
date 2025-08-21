@@ -1,0 +1,13 @@
+salesforce.Account "001WU00000V4XLdYAN" {
+  PhotoUrl = "/services/images/photo/001WU00000V4XLdYAN"
+  CleanStatus = "Pending"
+  Name = "Sample Account for Entitlements"
+  IsCustomerPortal = false
+  IsPartner = false
+  isunknown__c = false
+  SBQQ__AssetQuantitiesCombined__c = false
+  SBQQ__CoTermedContractsCombined__c = false
+  SBQQ__IgnoreParentContractedPrices__c = false
+  SBQQ__PreserveBundle__c = false
+  _alias = "Sample Account for Entitlements"
+}

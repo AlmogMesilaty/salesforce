@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__PriceSchedule__c</fullName>
+    <label>Price Schedule</label>
+    <type>Lookup</type>
+    <required>false</required>
+    <referenceTo>SBQQ__PriceSchedule__c</referenceTo>
+    <relationshipName>OrderProducts</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Price schedule applied to this order product.</description>
+    <inlineHelpText>Price schedule applied to this order product.</inlineHelpText>
+    <relationshipLabel>Order Products</relationshipLabel>
+    <trackHistory>false</trackHistory>
+</CustomField>

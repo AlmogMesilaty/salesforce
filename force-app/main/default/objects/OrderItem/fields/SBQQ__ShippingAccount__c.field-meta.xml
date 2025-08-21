@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ShippingAccount__c</fullName>
+    <label>Shipping Account</label>
+    <type>Lookup</type>
+    <required>false</required>
+    <referenceTo>Account</referenceTo>
+    <relationshipName>ShippingAccountOrderProducts</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <relationshipLabel>Order Products</relationshipLabel>
+    <trackHistory>false</trackHistory>
+</CustomField>

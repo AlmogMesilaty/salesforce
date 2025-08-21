@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__DynamicPricingConstraint__c</fullName>
+    <label>Percent Of Total Constraint</label>
+    <type>Picklist</type>
+    <required>false</required>
+    <valueSet>
+        <valueSetDefinition>
+            <value>
+                <fullName>List price is minimum</fullName>
+                <isActive>true</isActive>
+                <label>List price is minimum</label>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>List price is maximum</fullName>
+                <isActive>true</isActive>
+                <label>List price is maximum</label>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <deprecated>false</deprecated>
+    <description>Specifies constraints on dynamically calculated pricing.</description>
+    <inlineHelpText>Use to place constraints on dynamically calculated prices.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

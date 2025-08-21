@@ -1,0 +1,15 @@
+salesforce.Account "001WU00000bwlipYAA" {
+  PhotoUrl = "/services/images/photo/001WU00000bwlipYAA"
+  CleanStatus = "Pending"
+  Name = "Account2"
+  Phone = "464-890-7211"
+  Type = "Analyst"
+  IsCustomerPortal = false
+  IsPartner = false
+  isunknown__c = false
+  SBQQ__AssetQuantitiesCombined__c = false
+  SBQQ__CoTermedContractsCombined__c = false
+  SBQQ__IgnoreParentContractedPrices__c = false
+  SBQQ__PreserveBundle__c = false
+  _alias = "Account2"
+}

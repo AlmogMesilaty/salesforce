@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__RenewalOwner__c</fullName>
+    <label>Renewal Owner</label>
+    <type>Lookup</type>
+    <required>false</required>
+    <referenceTo>User</referenceTo>
+    <relationshipName>RenewalContracts</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Owner of the original opportunity.</description>
+    <inlineHelpText>Owner of the original opportunity.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

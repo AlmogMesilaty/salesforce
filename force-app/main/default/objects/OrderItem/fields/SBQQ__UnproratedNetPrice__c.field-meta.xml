@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__UnproratedNetPrice__c</fullName>
+    <label>Full-Term Net Unit Price</label>
+    <type>Currency</type>
+    <required>false</required>
+    <scale>2</scale>
+    <precision>16</precision>
+    <deprecated>false</deprecated>
+    <description>The full-term Net Unit Price.</description>
+    <inlineHelpText>The full term net price for individual line.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

@@ -1,0 +1,42 @@
+salesforce.Account "001WU00000V4XLTYA3" {
+  AccountNumber = "CC213425"
+  AnnualRevenue = 950000000
+  CleanStatus = "Pending"
+  Fax = "(014) 427-4428"
+  Industry = "Construction"
+  Name = "Pyramid Construction Inc."
+  NumberOfEmployees = 2680
+  Ownership = "Public"
+  Phone = "(014) 427-4427"
+  Sic = "4253"
+  TickerSymbol = "PYR"
+  Type = "Customer - Channel"
+  Website = "www.pyramid.com"
+  Active__c = salesforce.Account.field.Active__c.valueSet.values.Yes.fullName
+  NumberofLocations__c = 17
+  SLAExpirationDate__c = "2025-06-07"
+  SLASerialNumber__c = "9840"
+  SLA__c = salesforce.Account.field.SLA__c.valueSet.values.Silver.fullName
+  UpsellOpportunity__c = salesforce.Account.field.UpsellOpportunity__c.valueSet.values.Maybe.fullName
+  IsCustomerPortal = false
+  IsPartner = false
+  isunknown__c = false
+  SBQQ__AssetQuantitiesCombined__c = false
+  SBQQ__CoTermedContractsCombined__c = false
+  SBQQ__IgnoreParentContractedPrices__c = false
+  SBQQ__PreserveBundle__c = false
+  BillingAddress = {
+    city = "Paris"
+    country = "France"
+    postalCode = "75251"
+    street = "2 Place Jussieu"
+  }
+  ShippingAddress = {
+    city = "Paris"
+    country = "France"
+    postalCode = "75251"
+    street = "2 Place Jussieu"
+  }
+  PhotoUrl = "/services/images/photo/001WU00000V4XLTYA3"
+  _alias = "Pyramid Construction Inc."
+}
