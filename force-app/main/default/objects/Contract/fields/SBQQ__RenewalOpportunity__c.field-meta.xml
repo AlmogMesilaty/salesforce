@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__RenewalOpportunity__c</fullName>
+    <label>Renewal Opportunity</label>
+    <type>Lookup</type>
+    <required>false</required>
+    <referenceTo>Opportunity</referenceTo>
+    <relationshipName>RenewedContracts</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Renewal opportunity generated to track the renewal of this contract.</description>
+    <inlineHelpText>Renewal opportunity generated to track the renewal of this contract.</inlineHelpText>
+    <relationshipLabel>Renewal Contracts</relationshipLabel>
+    <trackHistory>false</trackHistory>
+</CustomField>

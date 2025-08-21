@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Queue Number 2</name>
+    <queueMembers>
+        <users>
+            <user>almog.mesilaty+dev1@salto.io</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>Queue_Number_2</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>LiveChatTranscript</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LookupToOrder__c</fullName>
+    <label>LookupToOrder</label>
+    <type>Lookup</type>
+    <required>true</required>
+    <referenceTo>Order</referenceTo>
+    <relationshipName>Leads</relationshipName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <relationshipLabel>Leads</relationshipLabel>
+    <trackFeedHistory>false</trackFeedHistory>
+</CustomField>

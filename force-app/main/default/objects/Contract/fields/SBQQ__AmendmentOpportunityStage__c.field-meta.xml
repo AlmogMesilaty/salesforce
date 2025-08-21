@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__AmendmentOpportunityStage__c</fullName>
+    <label>Amendment Opportunity Stage</label>
+    <type>Text</type>
+    <required>false</required>
+    <length>60</length>
+    <unique>false</unique>
+    <caseSensitive>false</caseSensitive>
+    <deprecated>false</deprecated>
+    <description>The current stage of the Amendment Opportunity.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The current stage of the Amendment Opportunity.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

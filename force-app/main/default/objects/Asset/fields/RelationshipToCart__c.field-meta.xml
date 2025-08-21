@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RelationshipToCart__c</fullName>
+    <label>LookupToCart</label>
+    <type>Lookup</type>
+    <required>true</required>
+    <referenceTo>WebCart</referenceTo>
+    <relationshipName>Assets</relationshipName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <relationshipLabel>Assets</relationshipLabel>
+    <trackHistory>false</trackHistory>
+</CustomField>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__TermDiscountSchedule__c</fullName>
+    <label>Term Discount Schedule</label>
+    <type>Lookup</type>
+    <required>false</required>
+    <referenceTo>SBQQ__DiscountSchedule__c</referenceTo>
+    <relationshipName>TermDiscountedProducts</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>SBQQ__DiscountSchedule__c.SBQQ__UserDefined__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <deprecated>false</deprecated>
+    <description>Schedule for discounts based on subscription term.</description>
+    <inlineHelpText>Schedule for discounts based on subscription term.</inlineHelpText>
+    <relationshipLabel>Term Discounted Products</relationshipLabel>
+    <trackHistory>false</trackHistory>
+</CustomField>

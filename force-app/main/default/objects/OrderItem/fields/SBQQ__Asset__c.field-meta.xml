@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Asset__c</fullName>
+    <label>Asset</label>
+    <type>Lookup</type>
+    <required>false</required>
+    <referenceTo>Asset</referenceTo>
+    <relationshipName>OrderProducts</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Asset created from this order product</description>
+    <inlineHelpText>Asset created from this order product</inlineHelpText>
+    <relationshipLabel>Order Products</relationshipLabel>
+    <trackHistory>false</trackHistory>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__TerminatedDate__c</fullName>
+    <label>Terminated Date</label>
+    <type>Date</type>
+    <required>false</required>
+    <deprecated>false</deprecated>
+    <description>Date that this order product&apos;s related subscription was terminated</description>
+    <inlineHelpText>Date that this order product&apos;s related subscription was terminated</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

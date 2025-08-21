@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__OrderProductBookings__c</fullName>
+    <label>Order Product Bookings</label>
+    <type>Currency</type>
+    <formula>IF( ISPICKVAL(SBQQ__BookingsIndicator__c  , &apos;Include&apos;) , UnitPrice * Quantity , 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <scale>2</scale>
+    <precision>18</precision>
+    <deprecated>false</deprecated>
+    <description>Amount of the order product’s total price.</description>
+    <inlineHelpText>Amount of the order product’s total price.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__PriceDimension__c</fullName>
+    <label>Price Dimension</label>
+    <type>Lookup</type>
+    <required>false</required>
+    <referenceTo>SBQQ__Dimension__c</referenceTo>
+    <relationshipName>OrderProducts</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>References the price dimension applied to this order product.</description>
+    <inlineHelpText>References the price dimension applied to this order product.</inlineHelpText>
+    <relationshipLabel>Order Products</relationshipLabel>
+    <trackHistory>false</trackHistory>
+</CustomField>

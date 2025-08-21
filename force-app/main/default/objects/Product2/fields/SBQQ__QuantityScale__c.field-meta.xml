@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__QuantityScale__c</fullName>
+    <label>Quantity Scale</label>
+    <type>Number</type>
+    <required>false</required>
+    <scale>0</scale>
+    <precision>1</precision>
+    <unique>false</unique>
+    <deprecated>false</deprecated>
+    <description>Specifies the number of decimal places used in the Quantity field.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Specifies the number of decimal places used in the Quantity field.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

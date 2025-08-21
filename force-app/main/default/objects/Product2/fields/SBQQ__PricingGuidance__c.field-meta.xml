@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__PricingGuidance__c</fullName>
+    <label>Pricing Guidance</label>
+    <type>Lookup</type>
+    <required>false</required>
+    <referenceTo>SBQQ__PricingGuidance__c</referenceTo>
+    <relationshipName>Products</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Pricing guidance for use with this product.</description>
+    <inlineHelpText>Pricing guidance for use with this product.</inlineHelpText>
+    <relationshipLabel>Products</relationshipLabel>
+    <trackHistory>false</trackHistory>
+</CustomField>

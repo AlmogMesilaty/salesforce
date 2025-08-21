@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__RequiredByProduct__c</fullName>
+    <label>Parent Product</label>
+    <type>Lookup</type>
+    <required>false</required>
+    <referenceTo>Product2</referenceTo>
+    <relationshipName>ChildAssets</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Parent Product of this Asset.</description>
+    <inlineHelpText>Parent Product of this Asset.</inlineHelpText>
+    <relationshipLabel>Child Assets</relationshipLabel>
+    <trackHistory>false</trackHistory>
+</CustomField>

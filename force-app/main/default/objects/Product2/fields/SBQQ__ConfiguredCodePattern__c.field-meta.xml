@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ConfiguredCodePattern__c</fullName>
+    <label>Configured Code Pattern</label>
+    <type>Text</type>
+    <required>false</required>
+    <length>255</length>
+    <unique>false</unique>
+    <caseSensitive>false</caseSensitive>
+    <deprecated>false</deprecated>
+    <description>Pattern used to generate product code (SKU) for configured products.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Pattern used to generate product code (SKU) for configured products.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

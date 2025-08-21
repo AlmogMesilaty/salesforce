@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__AssetAmendmentBehavior__c</fullName>
+    <label>Asset Amendment Behavior</label>
+    <type>Picklist</type>
+    <required>false</required>
+    <valueSet>
+        <valueSetDefinition>
+            <value>
+                <fullName>Default</fullName>
+                <isActive>true</isActive>
+                <label>Default</label>
+                <default>true</default>
+            </value>
+            <value>
+                <fullName>Allow Refund</fullName>
+                <isActive>true</isActive>
+                <label>Allow Refund</label>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <deprecated>false</deprecated>
+    <description>Indicates how assets representing this product behave on amendments.</description>
+    <inlineHelpText>Select a behavior when amending assets representing this product. By default, asset quantities cannot decrease unless an upgrade is added, and no refund is applied.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

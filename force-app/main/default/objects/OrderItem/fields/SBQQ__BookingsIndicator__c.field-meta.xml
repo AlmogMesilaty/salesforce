@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__BookingsIndicator__c</fullName>
+    <label>Bookings Indicator</label>
+    <type>Picklist</type>
+    <required>false</required>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>SBQQ__BookingsIndicator</valueSetName>
+    </valueSet>
+    <deprecated>false</deprecated>
+    <description>Indicates whether bookings are included.</description>
+    <inlineHelpText>Indicates whether bookings are included.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

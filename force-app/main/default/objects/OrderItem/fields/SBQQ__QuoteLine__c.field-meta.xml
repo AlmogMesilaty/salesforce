@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__QuoteLine__c</fullName>
+    <label>Quote Line</label>
+    <type>Lookup</type>
+    <required>false</required>
+    <referenceTo>SBQQ__QuoteLine__c</referenceTo>
+    <relationshipName>OrderProducts</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The quote line where this order product is created from.</description>
+    <inlineHelpText>The quote line where this order product is created from.</inlineHelpText>
+    <relationshipLabel>Order Products</relationshipLabel>
+    <trackHistory>false</trackHistory>
+</CustomField>

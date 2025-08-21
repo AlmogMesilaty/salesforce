@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__SubscriptionType__c</fullName>
+    <label>Subscription Type</label>
+    <type>Picklist</type>
+    <required>false</required>
+    <valueSet>
+        <valueSetDefinition>
+            <value>
+                <fullName>Renewable</fullName>
+                <isActive>true</isActive>
+                <label>Renewable</label>
+                <default>true</default>
+            </value>
+            <value>
+                <fullName>One-time</fullName>
+                <isActive>true</isActive>
+                <label>One-time</label>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Renewable/Evergreen</fullName>
+                <isActive>true</isActive>
+                <label>Renewable/Evergreen</label>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Evergreen</fullName>
+                <isActive>true</isActive>
+                <label>Evergreen</label>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <deprecated>false</deprecated>
+    <description>Renewable Subscriptions will transfer to Renewal Quotes. One-time Subscriptions will not.</description>
+    <inlineHelpText>Renewable Subscriptions will transfer to Renewal Quotes. One-time Subscriptions will not.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

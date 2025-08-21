@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM test sale process</fullName>
+    <description>Sale process is needed in order to create record type of opportunity</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Closed%20Lost</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed%20Won</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Id.%20Decision%20Makers</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Needs%20Analysis</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Negotiation%2FReview</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Perception%20Analysis</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Proposal%2FPrice%20Quote</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Prospecting</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Qualification</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Value%20Proposition</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

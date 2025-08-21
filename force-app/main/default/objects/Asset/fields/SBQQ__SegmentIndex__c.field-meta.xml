@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__SegmentIndex__c</fullName>
+    <label>Segment Index</label>
+    <type>Number</type>
+    <required>false</required>
+    <scale>0</scale>
+    <precision>2</precision>
+    <unique>false</unique>
+    <deprecated>false</deprecated>
+    <description>For multi-segmented Products, Index representing this Quote Line&apos;s position in the segment table.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>For multi-segmented Products, Index representing this Quote Line&apos;s position in the segment table.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MDT_Relationship_Particle__c</fullName>
+    <label>MDT_Relationship_Particle</label>
+    <type>MetadataRelationship</type>
+    <required>true</required>
+    <referenceTo>EntityParticle</referenceTo>
+    <relationshipName>new_CMTS</relationshipName>
+    <metadataRelationshipControllingField>new_CMT__mdt.Almog_MDT_Relationship_Field__c</metadataRelationshipControllingField>
+    <relationshipLabel>new_CMTS</relationshipLabel>
+</CustomField>

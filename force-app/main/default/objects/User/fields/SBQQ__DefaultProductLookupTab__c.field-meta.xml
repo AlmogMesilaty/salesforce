@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__DefaultProductLookupTab__c</fullName>
+    <label>Default Product Lookup Tab</label>
+    <type>Picklist</type>
+    <required>false</required>
+    <valueSet>
+        <valueSetDefinition>
+            <value>
+                <fullName>Guided Selling</fullName>
+                <isActive>true</isActive>
+                <label>Guided Selling</label>
+                <default>true</default>
+            </value>
+            <value>
+                <fullName>Search Filters</fullName>
+                <isActive>true</isActive>
+                <label>Search Filters</label>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <deprecated>false</deprecated>
+    <description>Default tab for this user in Product Lookup page.</description>
+    <inlineHelpText>Customize default tab in Product Lookup page.</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__VirtualAsset__c</fullName>
+    <label>Virtual Asset</label>
+    <type>Lookup</type>
+    <required>false</required>
+    <referenceTo>Asset</referenceTo>
+    <relationshipName>VirtualAsset</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <relationshipLabel>Assets (Virtual Asset)</relationshipLabel>
+    <trackHistory>false</trackHistory>
+</CustomField>

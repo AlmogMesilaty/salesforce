@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Dimension__c</fullName>
+    <label>Price Dimension Name</label>
+    <type>Text</type>
+    <formula>SBQQ__QuoteLine__r.SBQQ__Dimension__r.Name</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <unique>false</unique>
+    <caseSensitive>false</caseSensitive>
+    <deprecated>false</deprecated>
+    <description>Name of the Price Dimension that originated this Asset</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Name of the Price Dimension that originated this Asset</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

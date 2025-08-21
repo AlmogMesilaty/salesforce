@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CMT_Relationship_To_newCMT__c</fullName>
+    <label>new CMT</label>
+    <type>MetadataRelationship</type>
+    <required>true</required>
+    <referenceTo>new_CMT__mdt</referenceTo>
+    <relationshipName>SecondCMTs</relationshipName>
+    <relationshipLabel>SecondCMTs</relationshipLabel>
+</CustomField>

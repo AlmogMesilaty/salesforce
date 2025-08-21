@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Validation_Rule_2</fullName>
+    <active>true</active>
+    <errorConditionFormula>Owner:User.City &lt;&gt; &quot;valid&quot;</errorConditionFormula>
+    <errorMessage>Lead user must have valid city</errorMessage>
+</ValidationRule>

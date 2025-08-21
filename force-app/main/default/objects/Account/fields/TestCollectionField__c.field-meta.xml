@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TestCollectionField__c</fullName>
+    <label>TestCollectionField</label>
+    <type>MultiselectPicklist</type>
+    <required>true</required>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <value>
+                <fullName>First</fullName>
+                <isActive>true</isActive>
+                <label>First</label>
+                <default>true</default>
+            </value>
+            <value>
+                <fullName>Second</fullName>
+                <isActive>true</isActive>
+                <label>Second</label>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Third</fullName>
+                <isActive>true</isActive>
+                <label>Third</label>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+    <trackFeedHistory>false</trackFeedHistory>
+</CustomField>

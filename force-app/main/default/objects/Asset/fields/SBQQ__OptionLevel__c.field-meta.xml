@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__OptionLevel__c</fullName>
+    <label>Option Level</label>
+    <type>Number</type>
+    <required>false</required>
+    <scale>0</scale>
+    <precision>5</precision>
+    <unique>false</unique>
+    <deprecated>false</deprecated>
+    <description>Indicates nest level of this option (only applies to lines that are generated from options).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates nest level of this option (only applies to lines that are generated from options).</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

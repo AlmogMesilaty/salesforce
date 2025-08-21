@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__TaxAmount__c</fullName>
+    <label>Estimated Tax</label>
+    <type>Currency</type>
+    <required>false</required>
+    <scale>2</scale>
+    <precision>18</precision>
+    <deprecated>false</deprecated>
+    <description>Estimated tax amount</description>
+    <inlineHelpText>Estimated tax amount</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

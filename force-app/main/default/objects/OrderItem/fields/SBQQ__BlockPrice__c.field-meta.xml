@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__BlockPrice__c</fullName>
+    <label>Block Price</label>
+    <type>Lookup</type>
+    <required>false</required>
+    <referenceTo>SBQQ__BlockPrice__c</referenceTo>
+    <relationshipName>OrderProducts</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The block price that is applied to this order product at order creation time.</description>
+    <inlineHelpText>The block price that is applied to this order product at order creation time.</inlineHelpText>
+    <relationshipLabel>Order Products</relationshipLabel>
+    <trackHistory>false</trackHistory>
+</CustomField>

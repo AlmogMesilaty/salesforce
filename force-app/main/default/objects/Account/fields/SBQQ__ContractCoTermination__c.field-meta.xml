@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ContractCoTermination__c</fullName>
+    <label>Contract Co-Termination</label>
+    <type>Picklist</type>
+    <required>false</required>
+    <valueSet>
+        <valueSetDefinition>
+            <value>
+                <fullName>Never</fullName>
+                <isActive>true</isActive>
+                <label>Never</label>
+                <default>true</default>
+            </value>
+            <value>
+                <fullName>Always</fullName>
+                <isActive>true</isActive>
+                <label>Always</label>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Prompt</fullName>
+                <isActive>true</isActive>
+                <label>Prompt</label>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <deprecated>false</deprecated>
+    <description>Determines how service and subscription contracts for this customer are co-terminated.</description>
+    <inlineHelpText>Determines how service and subscription contracts for this customer are co-terminated.</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+</CustomField>
