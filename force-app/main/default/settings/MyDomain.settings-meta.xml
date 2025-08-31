@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyDomainSettings xmlns="http://soap.sforce.com/2006/04/metadata">
     <areLegacyRedirectsMaintained>false</areLegacyRedirectsMaintained>
+    <areLgcyRdirMaintainedWntr26>false</areLgcyRdirMaintainedWntr26>
     <canOnlyLoginWithMyDomainUrl>false</canOnlyLoginWithMyDomainUrl>
     <doesApiLoginRequireOrgDomain>false</doesApiLoginRequireOrgDomain>
     <doesWarnOnForceComRedirect>false</doesWarnOnForceComRedirect>
     <doesWarnOnRedirect>false</doesWarnOnRedirect>
     <domainPartition>develop</domainPartition>
+    <enableCrossDomainPreviewCookies>true</enableCrossDomainPreviewCookies>
     <enableEdgeDuringRollout>true</enableEdgeDuringRollout>
+    <enableExtendedRedirections>false</enableExtendedRedirections>
+    <enableLegacyRedirections>false</enableLegacyRedirections>
     <enableNativeBrowserForAuthOnAndroid>false</enableNativeBrowserForAuthOnAndroid>
     <enableNativeBrowserForAuthOnIos>false</enableNativeBrowserForAuthOnIos>
     <enableShareBrowserSessionAndroidForAuth>false</enableShareBrowserSessionAndroidForAuth>
     <enableShareBrowserSessionIOSForAuth>false</enableShareBrowserSessionIOSForAuth>
     <instancedUrlRedirectHandling>NoRedirect</instancedUrlRedirectHandling>
     <isFirstPartyCookieUseRequired>false</isFirstPartyCookieUseRequired>
+    <isInstancedApiTrafficBlocked>false</isInstancedApiTrafficBlocked>
     <logRedirections>false</logRedirections>
     <myDomainName>salto52-dev-ed</myDomainName>
     <myDomainSuffix>MySalesforce</myDomainSuffix>
@@ -24,7 +29,4 @@
     <useEnhancedDomainsInSandbox>true</useEnhancedDomainsInSandbox>
     <useStabilizedMyDomainHostnames>true</useStabilizedMyDomainHostnames>
     <useStabilizedSandboxMyDomainHostnames>true</useStabilizedSandboxMyDomainHostnames>
-    <enableCrossDomainPreviewCookies>true</enableCrossDomainPreviewCookies>
-    <enableExtendedRedirections>false</enableExtendedRedirections>
-    <enableLegacyRedirections>false</enableLegacyRedirections>
 </MyDomainSettings>

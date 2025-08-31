@@ -21,6 +21,7 @@
                 <assigneeType>User</assigneeType>
             </assignees>
             <canAssigneeEdit>false</canAssigneeEdit>
+            <debugSimulateStep>false</debugSimulateStep>
             <entryConditionLogic>and</entryConditionLogic>
             <exitConditionLogic>and</exitConditionLogic>
             <label>FirstBackgroungStep</label>
@@ -40,6 +41,7 @@
                 <assigneeType>User</assigneeType>
             </assignees>
             <canAssigneeEdit>false</canAssigneeEdit>
+            <debugSimulateStep>false</debugSimulateStep>
             <entryConditionLogic>and</entryConditionLogic>
             <entryConditions>
                 <conditionType>EntryCondition</conditionType>
