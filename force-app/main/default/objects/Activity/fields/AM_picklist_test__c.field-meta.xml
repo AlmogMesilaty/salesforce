@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_picklist_test__c</fullName>
+    <label>AM picklist test</label>
+    <type>Picklist</type>
+    <required>false</required>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <value>
+                <fullName>one</fullName>
+                <isActive>true</isActive>
+                <label>one</label>
+                <default>true</default>
+            </value>
+            <value>
+                <fullName>two</fullName>
+                <isActive>true</isActive>
+                <label>two</label>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>left</fullName>
+                <isActive>true</isActive>
+                <label>left</label>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>right</fullName>
+                <isActive>true</isActive>
+                <label>right</label>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
