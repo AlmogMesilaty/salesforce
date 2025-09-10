@@ -19,6 +19,7 @@ type salesforce.FlowInlineTransform {
     foreignKeyDomain = [
       salesforce.ApexClass,
       "ExternalServiceObjectType",
+      salesforce.LightningTypeBundle,
     ]
   }
   boolean isCollection {

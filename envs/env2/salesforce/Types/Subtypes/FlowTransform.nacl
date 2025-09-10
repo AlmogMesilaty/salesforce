@@ -53,6 +53,7 @@ type salesforce.FlowTransform {
     foreignKeyDomain = [
       salesforce.ApexClass,
       "ExternalServiceObjectType",
+      salesforce.LightningTypeBundle,
     ]
   }
   salesforce.FlowConnector connector {

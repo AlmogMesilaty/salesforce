@@ -21,6 +21,7 @@ type salesforce.FlowApexPluginCallInputParameter {
     _restriction = {
       enforce_value = false
       values = [
+        "ActivationData",
         "ActiveStages",
         "AppProcess",
         "ContextRecord",

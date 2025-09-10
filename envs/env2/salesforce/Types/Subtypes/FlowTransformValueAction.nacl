@@ -39,6 +39,35 @@ type salesforce.FlowTransformValueAction {
   }
   salesforce.FlowElementReferenceOrValue value {
   }
+  string actionName {
+    foreignKeyDomain = [
+      "AIRetrieverDefinition",
+      salesforce.ApexClass,
+      salesforce.AuraDefinitionBundle,
+      "BatchCalcJobDefinition",
+      "BatchProcessJobDefinition",
+      salesforce.CustomNotificationType,
+      "DecisionMatrixDefinition",
+      "DecisionTableDatasetLink",
+      "DiscoveryGoal",
+      "ExpressionSetDefinition",
+      "ExternalDataTranObject",
+      salesforce.ExternalServiceOperation,
+      salesforce.FlowDefinition,
+      "GenAiPromptTemplate",
+      salesforce.LightningComponentBundle,
+      "LoyaltyProgramSetup",
+      "MktMLModelKit",
+      "MlModelArtifact",
+      salesforce.QuickAction,
+      salesforce.WorkflowAlert,
+      salesforce.WorkflowOutboundMessage,
+    ]
+  }
+  string actionType {
+  }
+  string actionVersionString {
+  }
   string assignToReference {
   }
   metadataType = "FlowTransformValueAction"

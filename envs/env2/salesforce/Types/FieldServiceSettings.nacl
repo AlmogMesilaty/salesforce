@@ -13,6 +13,10 @@ settings salesforce.FieldServiceSettings {
     string dirName {
     }
   }
+  boolean advancedDataSyncOrgPreference {
+  }
+  string advancedDataSyncProfiles {
+  }
   number apptAssistantExpiration {
   }
   string apptAssistantInfoUrl {

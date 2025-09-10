@@ -35,6 +35,8 @@ type salesforce.EmailToCaseRoutingAddress {
   }
   boolean isVerified {
   }
+  string newEntityRecordType {
+  }
   string routingFlow {
   }
   string routingName {

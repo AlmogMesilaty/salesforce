@@ -19,6 +19,7 @@ type salesforce.FlowDataTypeMapping {
     foreignKeyDomain = [
       salesforce.ApexClass,
       "ExternalServiceObjectType",
+      salesforce.LightningTypeBundle,
     ]
   }
   string typeName {

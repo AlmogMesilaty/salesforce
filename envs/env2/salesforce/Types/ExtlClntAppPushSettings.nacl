@@ -1,0 +1,59 @@
+type salesforce.ExtlClntAppPushSettings {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  serviceid fullName {
+  }
+  salesforce.ExtlClntAppAndroidPushConfig androidPushConfig {
+  }
+  salesforce.ExtlClntAppApplePushConfig applePushConfig {
+  }
+  string externalClientApplication {
+    foreignKeyDomain = [
+      salesforce.ExternalClientApplication,
+    ]
+  }
+  string label {
+  }
+  string pushConfigLink {
+  }
+  string pushServiceType {
+    _restriction = {
+      enforce_value = false
+      values = [
+        "Android",
+        "Apple",
+      ]
+    }
+  }
+  string internalId {
+    _hidden_value = true
+    localOnly = true
+  }
+  suffix = "ecaPush"
+  dirName = "extlClntAppPushSettings"
+  metadataType = "ExtlClntAppPushSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+  ]
+}

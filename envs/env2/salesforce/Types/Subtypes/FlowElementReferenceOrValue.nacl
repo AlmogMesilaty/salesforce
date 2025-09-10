@@ -50,6 +50,8 @@ type salesforce.FlowElementReferenceOrValue {
   }
   string transformValueReference {
   }
+  string timeValue {
+  }
   salesforce.FlowInlineTransform transform {
   }
   metadataType = "FlowElementReferenceOrValue"

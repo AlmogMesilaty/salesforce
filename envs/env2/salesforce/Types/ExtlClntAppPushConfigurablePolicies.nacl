@@ -1,0 +1,46 @@
+type salesforce.ExtlClntAppPushConfigurablePolicies {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  serviceid fullName {
+  }
+  string externalClientApplication {
+    foreignKeyDomain = [
+      salesforce.ExternalClientApplication,
+    ]
+  }
+  boolean isFullContent {
+  }
+  string label {
+  }
+  string internalId {
+    _hidden_value = true
+    localOnly = true
+  }
+  suffix = "ecaPushPlcy"
+  dirName = "extlClntAppPushPolicies"
+  metadataType = "ExtlClntAppPushConfigurablePolicies"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+  ]
+}

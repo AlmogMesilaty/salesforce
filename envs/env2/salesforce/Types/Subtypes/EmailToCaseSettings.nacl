@@ -39,6 +39,8 @@ type salesforce.EmailToCaseSettings {
   }
   boolean notifyOwnerOnNewCaseEmail {
   }
+  boolean notifySenderE2CError {
+  }
   boolean preQuoteSignature {
   }
   boolean replyWithNewContentOnly {

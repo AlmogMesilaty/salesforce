@@ -49,6 +49,8 @@ type salesforce.FlowStart {
   }
   number locationY {
   }
+  string activation {
+  }
   salesforce.FlowCapability capabilityTypes {
   }
   salesforce.FlowConnector connector {

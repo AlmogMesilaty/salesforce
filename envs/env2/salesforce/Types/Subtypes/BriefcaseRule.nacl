@@ -580,6 +580,7 @@ type salesforce.BriefcaseRule {
         "WebCart",
         "WebCartAdjustmentBasis",
         "WebCartAdjustmentGroup",
+        "WebCartCredit",
         "WebStore",
         "WebStoreBuyerGroup",
         "WebStoreCatalog",
@@ -595,6 +596,7 @@ type salesforce.BriefcaseRule {
         "WorkType",
         "WorkTypeGroup",
         "WorkTypeGroupMember",
+        "new_CMT__mdt",
         "tst_obj__c",
         "tst_test__c",
       ]

@@ -65,6 +65,8 @@ type salesforce.FlowExperiment {
   }
   salesforce.FlowExperimentPath paths {
   }
+  string primaryMetric {
+  }
   number testGroupPercentage {
   }
   string type {

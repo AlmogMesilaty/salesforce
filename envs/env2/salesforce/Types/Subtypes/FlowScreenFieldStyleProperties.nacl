@@ -1,0 +1,21 @@
+type salesforce.FlowScreenFieldStyleProperties {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  salesforce.FlowElementReferenceOrValue verticalAlignment {
+  }
+  salesforce.FlowElementReferenceOrValue width {
+  }
+  metadataType = "FlowScreenFieldStyleProperties"
+}

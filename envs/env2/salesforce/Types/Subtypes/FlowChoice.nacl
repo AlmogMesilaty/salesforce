@@ -13,6 +13,8 @@ type salesforce.FlowChoice {
     string dirName {
     }
   }
+  salesforce.FlowIcon choiceIcon {
+  }
   string choiceText {
   }
   string description {

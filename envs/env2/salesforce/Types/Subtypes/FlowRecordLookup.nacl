@@ -74,6 +74,8 @@ type salesforce.FlowRecordLookup {
   }
   "List<string>" queriedFields {
   }
+  salesforce.FlowRelatedRecordLookup relatedRecords {
+  }
   string sortField {
   }
   boolean storeOutputAutomatically {

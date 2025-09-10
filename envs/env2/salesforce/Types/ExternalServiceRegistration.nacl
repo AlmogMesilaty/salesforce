@@ -43,6 +43,8 @@ type salesforce.ExternalServiceRegistration {
         "DocumentProcessing",
         "ExternalConnector",
         "Heroku",
+        "IntegProcd",
+        "ModelContextProtocol",
         "MuleSoft",
         "NamedQuery",
         "SchemaInferred",
@@ -60,6 +62,7 @@ type salesforce.ExternalServiceRegistration {
       values = [
         "InterpretedConnectivity",
         "JsonSchema",
+        "ModelContextProtocol",
         "OpenApi",
         "OpenApi3",
       ]

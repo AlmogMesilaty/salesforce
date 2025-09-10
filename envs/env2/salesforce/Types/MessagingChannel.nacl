@@ -33,6 +33,8 @@ type salesforce.MessagingChannel {
   }
   string queueRoutingConfig {
   }
+  string sessionHandlerAsa {
+  }
   string sessionHandlerFlow {
   }
   string sessionHandlerQueue {

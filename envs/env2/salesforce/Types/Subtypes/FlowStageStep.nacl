@@ -25,6 +25,8 @@ type salesforce.FlowStageStep {
   }
   salesforce.FlowStageStepAssignee assignees {
   }
+  boolean debugSimulateStep {
+  }
   salesforce.FlowStageStepEntryActionInputParameter entryActionInputParameters {
   }
   string entryActionName {
@@ -52,6 +54,8 @@ type salesforce.FlowStageStep {
   salesforce.FlowStageStepInputParameter inputParameters {
   }
   string label {
+  }
+  salesforce.FlowStageStepOutputConfigParam outputConfigParams {
   }
   salesforce.FlowStageStepOutputParameter outputParameters {
   }

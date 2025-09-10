@@ -1,0 +1,21 @@
+type salesforce.ExtlClntAppAndroidPushConfig {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  string fcmProject {
+  }
+  string serviceAccount {
+  }
+  metadataType = "ExtlClntAppAndroidPushConfig"
+}

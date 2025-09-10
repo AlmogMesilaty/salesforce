@@ -4048,7 +4048,7 @@ settings salesforce.Organization {
         America_Santiago@d = {
           fullName = "America/Santiago"
           default = false
-          label = "(GMT-04:00) Chile Standard Time (America/Santiago)"
+          label = "(GMT-03:00) Chile Summer Time (America/Santiago)"
           isActive = true
         }
         America_Santo_Domingo@du = {
@@ -4360,7 +4360,7 @@ settings salesforce.Organization {
         Pacific_Easter@d = {
           fullName = "Pacific/Easter"
           default = false
-          label = "(GMT-06:00) Easter Island Standard Time (Pacific/Easter)"
+          label = "(GMT-05:00) Easter Island Summer Time (Pacific/Easter)"
           isActive = true
         }
         Pacific_Galapagos@d = {
@@ -4839,6 +4839,7 @@ settings salesforce.Organization {
         salesforce.Organization.field.TimeZoneSidKey.valueSet.values.America_Punta_Arenas@du,
         salesforce.Organization.field.TimeZoneSidKey.valueSet.values.America_Recife@d,
         salesforce.Organization.field.TimeZoneSidKey.valueSet.values.America_Santarem@d,
+        salesforce.Organization.field.TimeZoneSidKey.valueSet.values.America_Santiago@d,
         salesforce.Organization.field.TimeZoneSidKey.valueSet.values.America_Sao_Paulo@du,
         salesforce.Organization.field.TimeZoneSidKey.valueSet.values.America_Thule@d,
         salesforce.Organization.field.TimeZoneSidKey.valueSet.values.Antarctica_Palmer@d,
@@ -4886,7 +4887,6 @@ settings salesforce.Organization {
         salesforce.Organization.field.TimeZoneSidKey.valueSet.values.America_Port_of_Spain@duu,
         salesforce.Organization.field.TimeZoneSidKey.valueSet.values.America_Porto_Velho@du,
         salesforce.Organization.field.TimeZoneSidKey.valueSet.values.America_Puerto_Rico@du,
-        salesforce.Organization.field.TimeZoneSidKey.valueSet.values.America_Santiago@d,
         salesforce.Organization.field.TimeZoneSidKey.valueSet.values.America_Santo_Domingo@du,
         salesforce.Organization.field.TimeZoneSidKey.valueSet.values.America_St_Barthelemy@du,
         salesforce.Organization.field.TimeZoneSidKey.valueSet.values.America_St_Kitts@du,
@@ -4919,6 +4919,7 @@ settings salesforce.Organization {
         salesforce.Organization.field.TimeZoneSidKey.valueSet.values.America_Resolute@d,
         salesforce.Organization.field.TimeZoneSidKey.valueSet.values.America_Rio_Branco@du,
         salesforce.Organization.field.TimeZoneSidKey.valueSet.values.America_Winnipeg@d,
+        salesforce.Organization.field.TimeZoneSidKey.valueSet.values.Pacific_Easter@d,
         salesforce.Organization.field.TimeZoneSidKey.valueSet.values.America_Bahia_Banderas@du,
         salesforce.Organization.field.TimeZoneSidKey.valueSet.values.America_Belize@d,
         salesforce.Organization.field.TimeZoneSidKey.valueSet.values.America_Boise@d,
@@ -4938,7 +4939,6 @@ settings salesforce.Organization {
         salesforce.Organization.field.TimeZoneSidKey.valueSet.values.America_Swift_Current@du,
         salesforce.Organization.field.TimeZoneSidKey.valueSet.values.America_Tegucigalpa@d,
         salesforce.Organization.field.TimeZoneSidKey.valueSet.values.America_Yellowknife@d,
-        salesforce.Organization.field.TimeZoneSidKey.valueSet.values.Pacific_Easter@d,
         salesforce.Organization.field.TimeZoneSidKey.valueSet.values.Pacific_Galapagos@d,
         salesforce.Organization.field.TimeZoneSidKey.valueSet.values.America_Creston@d,
         salesforce.Organization.field.TimeZoneSidKey.valueSet.values.America_Dawson@d,

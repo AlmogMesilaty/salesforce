@@ -187,6 +187,7 @@ type salesforce.ExternalDataSource {
         "QLIAttribute",
         "RecentFieldChange",
         "SAPAttribute",
+        "SalesActionPrioritizedData",
         "Salesforce",
         "SalesforceContract",
         "SalesforceInvoice",

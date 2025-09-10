@@ -78,8 +78,6 @@ type salesforce.ExtlClntAppSamlConfigurablePolicies {
   }
   string singleLogoutUrl {
   }
-  string startUrl {
-  }
   string subjectCustomAttribute {
   }
   string subjectType {

@@ -19,6 +19,8 @@ type salesforce.FlowScreenTriggerHandler {
   }
   salesforce.FlowCondition conditions {
   }
+  string initBehavior {
+  }
   string screenActionName {
   }
   metadataType = "FlowScreenTriggerHandler"

@@ -105,6 +105,7 @@ type salesforce.LightningPage {
         "runtime_revenue_configurator:configuratorAppTemplateTwoColumns",
         "runtime_sales_easy:easyHomeDesktopTemplate",
         "runtime_sales_forecasting:defaultForecastingPageTemplate",
+        "runtime_sales_seller_home:connectedSellerHomeDesktopTemplate",
         "runtime_sales_seller_home:sellerHomeDesktopTemplate",
         "runtime_service_fieldservice:headerBodyFooterDocumentTemplate",
         "runtime_slack_block:message",

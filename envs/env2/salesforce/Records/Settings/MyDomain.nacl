@@ -1,6 +1,7 @@
 salesforce.MyDomainSettings {
   fullName = "MyDomain"
   areLegacyRedirectsMaintained = false
+  areLgcyRdirMaintainedWntr26 = false
   canOnlyLoginWithMyDomainUrl = false
   doesApiLoginRequireOrgDomain = false
   doesWarnOnForceComRedirect = false
@@ -16,6 +17,7 @@ salesforce.MyDomainSettings {
   enableShareBrowserSessionIOSForAuth = false
   instancedUrlRedirectHandling = "NoRedirect"
   isFirstPartyCookieUseRequired = false
+  isInstancedApiTrafficBlocked = false
   logRedirections = false
   myDomainName = "saltolabs-b-dev-ed"
   myDomainSuffix = "MySalesforce"

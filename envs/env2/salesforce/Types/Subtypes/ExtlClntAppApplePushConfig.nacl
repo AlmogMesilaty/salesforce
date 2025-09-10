@@ -1,0 +1,29 @@
+type salesforce.ExtlClntAppApplePushConfig {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  string applicationBundle {
+  }
+  string certificate {
+  }
+  string keyIdentifier {
+  }
+  string password {
+  }
+  string signingKey {
+  }
+  string teamIdentifier {
+  }
+  metadataType = "ExtlClntAppApplePushConfig"
+}

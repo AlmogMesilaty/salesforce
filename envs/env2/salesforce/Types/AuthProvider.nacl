@@ -44,6 +44,21 @@ type salesforce.AuthProvider {
       salesforce.User,
     ]
   }
+  string flow {
+    foreignKeyDomain = [
+      salesforce.FlowDefinition,
+    ]
+  }
+  string flowDefaultAccount {
+    foreignKeyDomain = [
+      salesforce.Account,
+    ]
+  }
+  string flowDefaultProfile {
+    foreignKeyDomain = [
+      "Profile",
+    ]
+  }
   string friendlyName {
   }
   serviceid fullName {

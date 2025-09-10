@@ -22,7 +22,13 @@ type salesforce.ExtlClntAppConfigurablePolicies {
   }
   boolean isEnabled {
   }
+  boolean isMobilePluginEnabled {
+  }
+  boolean isNotificationPluginEnabled {
+  }
   boolean isOauthPluginEnabled {
+  }
+  boolean isPushPluginEnabled {
   }
   boolean isSamlPluginEnabled {
   }

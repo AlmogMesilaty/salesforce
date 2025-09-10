@@ -71,6 +71,8 @@ type salesforce.FlowScreenField {
   }
   boolean storeOutputAutomatically {
   }
+  salesforce.FlowScreenFieldStyleProperties styleProperties {
+  }
   salesforce.FlowInputValidationRule validationRule {
   }
   salesforce.FlowVisibilityRule visibilityRule {

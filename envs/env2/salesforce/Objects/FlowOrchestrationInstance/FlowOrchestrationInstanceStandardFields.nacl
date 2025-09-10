@@ -29,9 +29,6 @@ type salesforce.FlowOrchestrationInstance {
     unique = false
     caseSensitive = false
   }
-  salesforce.Unknown TriggeringRecordType {
-    apiName = "FlowOrchestrationInstance.TriggeringRecordType"
-  }
   serviceid Id {
     apiName = "FlowOrchestrationInstance.Id"
     label = "Orchestration Run ID"
@@ -92,6 +89,13 @@ type salesforce.FlowOrchestrationInstance {
     apiName = "FlowOrchestrationInstance.OrchestrationLabel"
     label = "Orchestration Name"
     length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text TriggeringRecordType {
+    apiName = "FlowOrchestrationInstance.TriggeringRecordType"
+    label = "Triggering Record Type"
+    length = 40
     unique = false
     caseSensitive = false
   }

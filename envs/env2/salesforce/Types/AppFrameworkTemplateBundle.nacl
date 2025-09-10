@@ -28,6 +28,28 @@ type salesforce.AppFrameworkTemplateBundle {
       salesforce.StaticResource,
     ]
   }
+  string templateStatus {
+    _restriction = {
+      enforce_value = false
+      values = [
+        "Draft",
+        "Published",
+      ]
+    }
+  }
+  string templateSubtype {
+    _restriction = {
+      enforce_value = false
+      values = [
+        "AgentforceAnalytics",
+        "Dashboard",
+        "DataCloud",
+        "SemanticModel",
+        "Tableau",
+        "Visualization",
+      ]
+    }
+  }
   string templateType {
     _restriction = {
       enforce_value = false

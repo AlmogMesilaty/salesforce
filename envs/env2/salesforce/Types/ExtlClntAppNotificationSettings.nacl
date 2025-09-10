@@ -1,0 +1,46 @@
+type salesforce.ExtlClntAppNotificationSettings {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  serviceid fullName {
+  }
+  string externalClientApplication {
+    foreignKeyDomain = [
+      salesforce.ExternalClientApplication,
+    ]
+  }
+  string label {
+  }
+  salesforce.ExtlClntAppNotificationType notificationTypes {
+  }
+  string internalId {
+    _hidden_value = true
+    localOnly = true
+  }
+  suffix = "ecaNotifications"
+  dirName = "extlClntAppNotifSettings"
+  metadataType = "ExtlClntAppNotificationSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+  ]
+}

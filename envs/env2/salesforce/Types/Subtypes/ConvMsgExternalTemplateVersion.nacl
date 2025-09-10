@@ -17,7 +17,41 @@ type salesforce.ConvMsgExternalTemplateVersion {
   }
   string accountName {
   }
+  string errorCode {
+    _restriction = {
+      enforce_value = false
+      values = [
+        "DeprecationError",
+        "IntegrityError",
+        "InternalError",
+        "InvalidAccessToken",
+        "InvalidParameter",
+        "MetricsThresholdNotReached",
+        "Other",
+        "PublishError",
+        "ValidationError",
+      ]
+    }
+  }
+  string errorMessage {
+  }
+  string externalConfigJson {
+  }
   string language {
+  }
+  string layoutJson {
+  }
+  string rejectionReason {
+    _restriction = {
+      enforce_value = false
+      values = [
+        "AbusiveContent",
+        "IncorrectCategory",
+        "InvalidFormat",
+        "Other",
+        "Scam",
+      ]
+    }
   }
   string status {
     _restriction = {
@@ -47,4 +81,14 @@ type salesforce.ConvMsgExternalTemplateVersion {
       indexed = true
     },
   ]
+  string type {
+    _restriction = {
+      enforce_value = false
+      values = [
+        "Flow",
+        "Legacy",
+        "Template",
+      ]
+    }
+  }
 }

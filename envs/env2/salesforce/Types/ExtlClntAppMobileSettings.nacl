@@ -1,0 +1,46 @@
+type salesforce.ExtlClntAppMobileSettings {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  serviceid fullName {
+  }
+  string externalClientApplication {
+    foreignKeyDomain = [
+      salesforce.ExternalClientApplication,
+    ]
+  }
+  boolean isScreenLockEnabled {
+  }
+  string label {
+  }
+  string internalId {
+    _hidden_value = true
+    localOnly = true
+  }
+  suffix = "ecaMobile"
+  dirName = "extlClntAppMobileSettings"
+  metadataType = "ExtlClntAppMobileSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+  ]
+}

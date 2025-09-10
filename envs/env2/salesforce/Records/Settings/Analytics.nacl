@@ -10,7 +10,9 @@ salesforce.AnalyticsSettings {
   canExploreDataConversationally = false
   canShareAppsWithCommunities = false
   canViewThumbnailAssets = false
+  cdpQueryCachingOptIn = false
   concurrencyLimitSharing = false
+  disableIncrementalDatasetCreation = false
   enableAmazonRedshiftOutputConnector = false
   enableAnalyticsSharingEnable = true
   enableAutoCompleteCombo = true
@@ -19,6 +21,7 @@ salesforce.AnalyticsSettings {
   enableCrtSetupLightningUiPref = true
   enableDashboardComponentSnapshot = false
   enableDashboardFlexiTable = true
+  enableDashboardSubOrgEmailPref = false
   enableDataCloudReportingPref = true
   enableEmailReportsToPortalUsers = false
   enableFirebirdEditor = false

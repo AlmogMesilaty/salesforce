@@ -26,4 +26,6 @@ type salesforce.FlowTestReferenceOrValue {
   string stringValue {
   }
   metadataType = "FlowTestReferenceOrValue"
+  string timeValue {
+  }
 }
