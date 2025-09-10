@@ -510,6 +510,16 @@
         <editable>true</editable>
     </fieldPermissions>
     <fieldPermissions>
+        <field>am_riski_custom_obj__c.am_picklist_riski_one__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <field>am_riski_custom_obj__c.am_picklist_riski_two__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+    <fieldPermissions>
         <field>AppointmentInvitation.AppointmentTopicId</field>
         <readable>true</readable>
         <editable>true</editable>
@@ -2571,6 +2581,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <field>Entitlement.WorkOrdersPerEntitlement</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <field>Event.AM_picklist_test__c</field>
         <readable>true</readable>
         <editable>true</editable>
     </fieldPermissions>
@@ -5360,6 +5375,11 @@
         <editable>false</editable>
     </fieldPermissions>
     <fieldPermissions>
+        <field>Task.AM_picklist_test__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+    <fieldPermissions>
         <field>Task.Description</field>
         <readable>false</readable>
         <editable>false</editable>
@@ -6061,6 +6081,9 @@
         <layout>am_custom_obj__c-am custom obj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>am_riski_custom_obj__c-am riski custom obj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ApiAnomalyEventStore-API Anomaly Event Store Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -6159,6 +6182,10 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>EntityMilestone-Object Milestone Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Event-Event Layout</layout>
+        <recordType>Event.AM_record_type</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>FeedItem-Feed Item Layout</layout>
@@ -6271,6 +6298,10 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>StandardShippingRate-Standard Shipping Rate Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Task-Task Layout</layout>
+        <recordType>Task.AM_task_record_type</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Test_Custom_Object__c-Test Custom Object Layout</layout>
@@ -6582,6 +6613,11 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Event.AM_record_type</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
         <visible>false</visible>
@@ -6589,6 +6625,11 @@
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>Opportunity.AM_opportunity_record_type</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Task.AM_task_record_type</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>

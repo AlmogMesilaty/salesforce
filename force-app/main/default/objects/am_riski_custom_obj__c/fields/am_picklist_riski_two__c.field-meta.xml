@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>am_picklist_riski_two__c</fullName>
+    <label>am picklist riski two</label>
+    <type>Picklist</type>
+    <required>false</required>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>SBQQ__PaperSize</valueSetName>
+    </valueSet>
+    <trackTrending>false</trackTrending>
+</CustomField>

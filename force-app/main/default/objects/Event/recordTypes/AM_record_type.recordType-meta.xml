@@ -6,67 +6,19 @@
     <picklistValues>
         <picklist>AM_picklist_test__c</picklist>
         <values>
-            <fullName>
-                <target>
-                    <adapter>salesforce</adapter>
-                    <typeName>Event</typeName>
-                    <idType>field</idType>
-                    <nameParts>AM_picklist_test__c</nameParts>
-                    <nameParts>valueSet</nameParts>
-                    <nameParts>values</nameParts>
-                    <nameParts>left</nameParts>
-                    <nameParts>fullName</nameParts>
-                    <fullName>salesforce.Event.field.AM_picklist_test__c.valueSet.values.left.fullName</fullName>
-                </target>
-            </fullName>
+            <fullName>left</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>
-                <target>
-                    <adapter>salesforce</adapter>
-                    <typeName>Event</typeName>
-                    <idType>field</idType>
-                    <nameParts>AM_picklist_test__c</nameParts>
-                    <nameParts>valueSet</nameParts>
-                    <nameParts>values</nameParts>
-                    <nameParts>one</nameParts>
-                    <nameParts>fullName</nameParts>
-                    <fullName>salesforce.Event.field.AM_picklist_test__c.valueSet.values.one.fullName</fullName>
-                </target>
-            </fullName>
+            <fullName>one</fullName>
             <default>true</default>
         </values>
         <values>
-            <fullName>
-                <target>
-                    <adapter>salesforce</adapter>
-                    <typeName>Event</typeName>
-                    <idType>field</idType>
-                    <nameParts>AM_picklist_test__c</nameParts>
-                    <nameParts>valueSet</nameParts>
-                    <nameParts>values</nameParts>
-                    <nameParts>right</nameParts>
-                    <nameParts>fullName</nameParts>
-                    <fullName>salesforce.Event.field.AM_picklist_test__c.valueSet.values.right.fullName</fullName>
-                </target>
-            </fullName>
+            <fullName>right</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>
-                <target>
-                    <adapter>salesforce</adapter>
-                    <typeName>Event</typeName>
-                    <idType>field</idType>
-                    <nameParts>AM_picklist_test__c</nameParts>
-                    <nameParts>valueSet</nameParts>
-                    <nameParts>values</nameParts>
-                    <nameParts>two</nameParts>
-                    <nameParts>fullName</nameParts>
-                    <fullName>salesforce.Event.field.AM_picklist_test__c.valueSet.values.two.fullName</fullName>
-                </target>
-            </fullName>
+            <fullName>two</fullName>
             <default>false</default>
         </values>
     </picklistValues>
